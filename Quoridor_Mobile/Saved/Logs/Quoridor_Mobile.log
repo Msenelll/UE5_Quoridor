@@ -1654,3 +1654,46 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.11-20.10.04:681][492]LogSlate: External Image Picker: DecompressImage failed
 [2025.10.11-20.10.08:680][888]LogSlate: Window 'Project Settings' being destroyed
 [2025.10.11-20.10.08:687][888]LogSlate: Window 'Project Settings' being destroyed
+[2025.10.11-20.10.43:665][ 74]LogShaderCompilers: Display: ================================================
+[2025.10.11-20.10.43:665][ 74]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.11-20.10.43:665][ 74]LogShaderCompilers: Display: Total job queries 348, among them cache hits 33 (9.48%), DDC hits 262 (75.29%), Duplicates 51 (14.66%)
+[2025.10.11-20.10.43:665][ 74]LogShaderCompilers: Display: Tracking 264 distinct input hashes that result in 185 distinct outputs (70.08%)
+[2025.10.11-20.10.43:665][ 74]LogShaderCompilers: Display: RAM used: 2,68 MiB of 819,20 MiB budget. Usage: 0.33%
+[2025.10.11-20.10.43:665][ 74]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.11-20.10.43:665][ 74]LogShaderCompilers: Display: Shaders Compiled: 2
+[2025.10.11-20.10.43:666][ 74]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2025.10.11-20.10.43:666][ 74]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2025.10.11-20.10.43:666][ 74]LogShaderCompilers: Display: Job execution time: average 4.25 s, max 4.31 s
+[2025.10.11-20.10.43:666][ 74]LogShaderCompilers: Display: Job life time (pending + execution): average 4.29 s, max 4.34
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Shader code size: total 13,988 KiB, numShaders 2, average 6,994 KiB, min 6,379 KiB, max 7,609 KiB
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.35 s
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.24%
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Average processing rate: 0.46 jobs/sec
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Total thread time: 0,555 s
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Total thread preprocess time: 4,306 s
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Percentage time preprocessing: 775.37%
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Effective parallelization: 0.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.012777
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 59.47% of total time (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 40.53% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display:                                             FDebugViewModePS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: === Material stats ===
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Materials Translated:    140
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Material Translation Only: 0.03 s (29%)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: Material Cache Hits: 10 (7%)
+[2025.10.11-20.10.43:684][ 74]LogShaderCompilers: Display: ================================================
+[2025.10.11-20.12.27:360][385]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1732.834839
+[2025.10.11-20.12.28:360][388]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.11-20.12.28:360][388]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1733.502319, Update Interval: 344.528931
