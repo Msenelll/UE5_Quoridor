@@ -5765,3 +5765,116 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.08-18.41.15:585][  5]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.08-18.41.15:585][  5]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.08-18.41.15:585][  5]AssetCheck: /Game/02_Blueprint/03_UI/WBP_TurnControls Validating asset
+[2025.11.08-18.41.57:859][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.11.08-18.41.58:341][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.08-18.44.58:415][572]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7875.046387
+[2025.11.08-18.44.59:414][575]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-18.44.59:414][575]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7875.709961, Update Interval: 309.781799
+[2025.11.08-18.51.00:667][658]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8237.277344
+[2025.11.08-18.51.01:667][661]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-18.51.01:667][661]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8237.944336, Update Interval: 307.214569
+[2025.11.08-18.51.22:971][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.11.08-18.52.50:581][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.11.08-18.52.51:414][585]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-18.52.51:442][585]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/GS_Quoridor] ([2] browsable assets)...
+[2025.11.08-18.52.51:442][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/GS_Quoridor]
+[2025.11.08-18.52.51:454][585]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/GS_Quoridor
+[2025.11.08-18.52.51:455][585]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/GS_Quoridor9EF14D2649FE58F7F8FABC94D17185F6.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/GS_Quoridor.uasset'
+[2025.11.08-18.52.51:462][585]LogFileHelpers: InternalPromptForCheckoutAndSave took 48.802 ms (total: 4.46 sec)
+[2025.11.08-18.52.51:490][585]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-18.52.51:490][585]LogContentValidation: Enabled validators:
+[2025.11.08-18.52.51:490][585]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-18.52.51:490][585]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-18.52.51:490][585]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-18.52.51:490][585]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-18.52.51:490][585]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-18.52.51:490][585]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-18.52.51:490][585]AssetCheck: /Game/02_Blueprint/01_Core/GS_Quoridor Validating asset
+[2025.11.08-18.53.01:817][481]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.08-18.53.02:685][556]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-18.53.02:713][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/GS_Quoridor] ([2] browsable assets)...
+[2025.11.08-18.53.02:713][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/GS_Quoridor]
+[2025.11.08-18.53.02:724][556]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/GS_Quoridor
+[2025.11.08-18.53.02:725][556]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/GS_QuoridorD99CF3164F030208FE19969E96FAD286.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/GS_Quoridor.uasset'
+[2025.11.08-18.53.02:732][556]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.477 ms (total: 4.51 sec)
+[2025.11.08-18.53.02:761][556]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-18.53.02:761][556]LogContentValidation: Enabled validators:
+[2025.11.08-18.53.02:761][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-18.53.02:761][556]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-18.53.02:761][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-18.53.02:761][556]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-18.53.02:761][556]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-18.53.02:761][556]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-18.53.02:761][556]AssetCheck: /Game/02_Blueprint/01_Core/GS_Quoridor Validating asset
+[2025.11.08-18.53.18:637][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.08-18.53.38:912][ 52]LogUObjectHash: Compacting FUObjectHashTables data took 272.28ms
+[2025.11.08-18.53.39:540][108]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-18.53.39:560][108]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/GS_Quoridor] ([2] browsable assets)...
+[2025.11.08-18.53.39:561][108]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/GS_Quoridor]
+[2025.11.08-18.53.39:573][108]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/GS_Quoridor
+[2025.11.08-18.53.39:574][108]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/GS_Quoridor82A4014644E8409CA48FD0B82CDB180A.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/GS_Quoridor.uasset'
+[2025.11.08-18.53.39:581][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.695 ms (total: 4.55 sec)
+[2025.11.08-18.53.39:610][108]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-18.53.39:610][108]LogContentValidation: Enabled validators:
+[2025.11.08-18.53.39:610][108]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-18.53.39:610][108]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-18.53.39:610][108]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-18.53.39:610][108]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-18.53.39:610][108]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-18.53.39:610][108]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-18.53.39:610][108]AssetCheck: /Game/02_Blueprint/01_Core/GS_Quoridor Validating asset
+[2025.11.08-18.56.41:559][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.11.08-18.56.42:431][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-18.56.42:458][630]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/GS_Quoridor] ([2] browsable assets)...
+[2025.11.08-18.56.42:458][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/GS_Quoridor]
+[2025.11.08-18.56.42:470][630]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/GS_Quoridor
+[2025.11.08-18.56.42:471][630]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/GS_Quoridor35DFF20148CF326A21330FBF3734C352.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/GS_Quoridor.uasset'
+[2025.11.08-18.56.42:480][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.699 ms (total: 4.60 sec)
+[2025.11.08-18.56.42:499][630]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-18.56.42:499][630]LogContentValidation: Enabled validators:
+[2025.11.08-18.56.42:499][630]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-18.56.42:499][630]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-18.56.42:499][630]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-18.56.42:499][630]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-18.56.42:499][630]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-18.56.42:499][630]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-18.56.42:499][630]AssetCheck: /Game/02_Blueprint/01_Core/GS_Quoridor Validating asset
+[2025.11.08-18.56.56:628][305]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8593.574219
+[2025.11.08-18.56.56:820][328]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-18.56.56:820][328]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8593.758789, Update Interval: 310.440979
+[2025.11.08-19.02.39:585][ 32]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8936.778320
+[2025.11.08-19.02.40:588][ 35]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-19.02.40:588][ 35]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8937.445312, Update Interval: 356.418335
+[2025.11.08-19.03.32:001][ 65]LogUObjectHash: Compacting FUObjectHashTables data took  33.06ms
+[2025.11.08-19.03.32:798][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-19.03.32:827][129]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/GM_Quoridor] ([2] browsable assets)...
+[2025.11.08-19.03.32:827][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/GM_Quoridor]
+[2025.11.08-19.03.32:845][129]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/GM_Quoridor
+[2025.11.08-19.03.32:845][129]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/GM_QuoridorDABCF87D4F43E603A26FA79FBAFAFAB5.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/GM_Quoridor.uasset'
+[2025.11.08-19.03.32:853][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.462 ms (total: 4.66 sec)
+[2025.11.08-19.03.32:875][129]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-19.03.32:875][129]LogContentValidation: Enabled validators:
+[2025.11.08-19.03.32:875][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-19.03.32:875][129]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-19.03.32:875][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-19.03.32:875][129]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-19.03.32:875][129]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-19.03.32:875][129]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-19.03.32:875][129]AssetCheck: /Game/02_Blueprint/01_Core/GM_Quoridor Validating asset
+[2025.11.08-19.07.48:533][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.11.08-19.07.49:481][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-19.07.49:508][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.08-19.07.49:508][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.08-19.07.49:533][ 53]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.08-19.07.49:534][ 53]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor923A9E6C4128452EE416F688DD04CF8C.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.08-19.07.49:541][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.675 ms (total: 4.72 sec)
+[2025.11.08-19.07.49:570][ 53]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-19.07.49:570][ 53]LogContentValidation: Enabled validators:
+[2025.11.08-19.07.49:570][ 53]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-19.07.49:570][ 53]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-19.07.49:570][ 53]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-19.07.49:570][ 53]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-19.07.49:570][ 53]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-19.07.49:570][ 53]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-19.07.49:570][ 53]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.08-19.09.00:706][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
