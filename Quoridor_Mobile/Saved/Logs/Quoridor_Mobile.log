@@ -5878,3 +5878,414 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.08-19.07.49:570][ 53]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.08-19.07.49:570][ 53]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
 [2025.11.08-19.09.00:706][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.11.08-19.09.09:274][549]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9326.362305
+[2025.11.08-19.09.10:278][552]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-19.09.10:278][552]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9327.028320, Update Interval: 321.955017
+[2025.11.08-19.10.45:331][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.11.08-19.15.13:077][978]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9690.261719
+[2025.11.08-19.15.14:076][981]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-19.15.14:077][981]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9690.930664, Update Interval: 351.207001
+[2025.11.08-19.19.43:674][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.11.08-19.19.43:676][510]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UE5_Quoridor' took 0.053
+[2025.11.08-19.19.43:697][510]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.08-19.19.43:716][510]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.08-19.19.43:743][510]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto6
+[2025.11.08-19.19.43:743][510]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor_Auto629AF13234CA66FA87D4DFA9215CABB86.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto6.uasset'
+[2025.11.08-19.19.43:799][510]LogFileHelpers: Auto-saving content packages took 0.122
+[2025.11.08-19.21.44:190][905]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10081.212891
+[2025.11.08-19.21.44:377][923]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-19.21.44:377][923]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10081.387695, Update Interval: 312.279419
+[2025.11.08-19.26.37:528][781]LogUObjectHash: Compacting FUObjectHashTables data took   8.86ms
+[2025.11.08-19.26.38:594][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-19.26.38:621][860]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.08-19.26.38:621][860]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.08-19.26.38:648][860]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.08-19.26.38:648][860]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_QuoridorB300D2C245BDF7F0EFC88CBB9B81911A.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.08-19.26.38:656][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.263 ms (total: 4.78 sec)
+[2025.11.08-19.26.38:684][860]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-19.26.38:684][860]LogContentValidation: Enabled validators:
+[2025.11.08-19.26.38:684][860]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-19.26.38:684][860]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-19.26.38:684][860]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-19.26.38:684][860]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-19.26.38:684][860]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-19.26.38:684][860]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-19.26.38:684][860]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.08-19.27.55:974][221]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10452.488281
+[2025.11.08-19.27.56:171][240]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-19.27.56:171][240]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10452.673828, Update Interval: 329.737244
+[2025.11.08-19.33.19:612][762]LogDerivedDataCache: C:/Users/msene/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.08-19.34.12:285][148]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10828.461914
+[2025.11.08-19.34.12:463][164]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-19.34.12:463][164]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10828.626953, Update Interval: 323.727539
+[2025.11.08-19.34.31:727][690]LogUObjectHash: Compacting FUObjectHashTables data took  16.21ms
+[2025.11.08-19.34.32:817][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-19.34.32:844][743]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.08-19.34.32:844][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.08-19.34.32:869][743]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.08-19.34.32:870][743]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor0F4473CF4B51447DE118D584B3970819.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.08-19.34.32:878][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.632 ms (total: 4.84 sec)
+[2025.11.08-19.34.32:899][743]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-19.34.32:899][743]LogContentValidation: Enabled validators:
+[2025.11.08-19.34.32:899][743]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-19.34.32:899][743]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-19.34.32:899][743]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-19.34.32:899][743]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-19.34.32:899][743]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-19.34.32:899][743]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-19.34.32:899][743]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.08-19.34.37:566][ 93]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.08-19.34.37:930][ 93]LogContentBundle: [UE5_Quoridor(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.08-19.34.37:941][ 93]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' started...
+[2025.11.08-19.34.38:175][ 93]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' took 236.756 ms (total: 362.093 ms)
+[2025.11.08-19.34.38:513][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.08-19.34.38:887][ 93]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.34.39:691][ 93]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.08-19.34.39:703][ 93]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 11.759 ms (total: 194.200 ms)
+[2025.11.08-19.34.39:719][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.813289s)
+[2025.11.08-19.34.39:719][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UE5_Quoridor.UE5_Quoridor to /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor (0.831708s)
+[2025.11.08-19.34.39:793][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.08-19.34.40:008][ 93]LogChaosDD: Creating Chaos Debug Draw Scene for world UE5_Quoridor
+[2025.11.08-19.34.41:658][ 93]LogWorldPartition: ULevel::OnLevelLoaded(UE5_Quoridor)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.08-19.34.41:667][ 93]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.08-19.34.41:668][ 93]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.08-19.34.41:668][ 93]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.08-19.34.41:808][ 93]LogWorldPartition: Display: WorldPartition initialize took 140.311 ms (total: 569.774 ms)
+[2025.11.08-19.34.41:939][ 93]LogPlayLevel: PIE: World Init took: (1.981080s)
+[2025.11.08-19.34.41:984][ 93]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2025.11.08-19.34.42:058][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.08-19.34.42:058][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.08-19.34.42:058][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.08-19.34.42:058][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.08-19.34.42:058][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.08-19.34.42:058][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.08-19.34.42:058][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.08-19.34.42:058][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.08-19.34.42:149][ 93]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.08-19.34.42:149][ 93]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.08-19.34.42:149][ 93]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.08-19.34.42:202][ 93]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.08-19.34.42:393][ 93]LogAudioMixer: Display: Using Audio Hardware Device Headphones (ROG STRIX Go 2.4)
+[2025.11.08-19.34.42:480][ 93]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.08-19.34.42:495][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.08-19.34.42:504][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.08-19.34.42:581][ 93]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2025.11.08-19.34.42:581][ 93]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=50
+[2025.11.08-19.34.42:629][ 93]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2025.11.08-19.34.42:629][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2025.11.08-19.34.42:653][ 93]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=50
+[2025.11.08-19.34.42:658][ 93]LogInit: FAudioDevice initialized with ID 50.
+[2025.11.08-19.34.42:658][ 93]LogAudio: Display: Audio Device (ID: 50) registered with world 'UE5_Quoridor'.
+[2025.11.08-19.34.42:695][ 93]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 50
+[2025.11.08-19.34.43:116][ 93]LogLoad: Game class is 'GM_Quoridor_C'
+[2025.11.08-19.34.43:417][ 93]LogWorld: Bringing World /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor up for play (max tick rate 0) at 2025.11.08-22.34.43
+[2025.11.08-19.34.43:466][ 93]LogWorld: Bringing up level for play took: 0.326877
+[2025.11.08-19.34.43:770][ 93]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2025.11.08-19.34.44:795][ 93]LogStreaming: Display: FlushAsyncLoading(683,682): 2 QueuedPackages, 0 AsyncPackages
+[2025.11.08-19.34.45:248][ 93]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.08-19.34.45:589][ 93]PIE: Server logged in
+[2025.11.08-19.34.45:613][ 93]PIE: Play in editor total start time 7,854 seconds.
+[2025.11.08-19.35.21:498][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.35.21:498][588]LogWorld: BeginTearingDown for /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.35.21:753][588]LogWorld: UWorld::CleanupWorld for UE5_Quoridor, bSessionEnded=true, bCleanupResources=true
+[2025.11.08-19.35.21:819][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.35.21:826][588]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor
+[2025.11.08-19.35.22:285][588]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.08-19.35.22:338][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.35.22:514][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.35.22:522][588]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 50
+[2025.11.08-19.35.22:557][588]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50, StreamState=4
+[2025.11.08-19.35.22:594][588]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50, StreamState=2
+[2025.11.08-19.35.23:141][588]LogUObjectHash: Compacting FUObjectHashTables data took  23.24ms
+[2025.11.08-19.35.23:353][589]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2025.11.08-19.35.25:067][724]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.08-19.35.25:071][724]LogContentBundle: [UE5_Quoridor(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.08-19.35.25:071][724]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' started...
+[2025.11.08-19.35.25:072][724]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' took 626 us (total: 362.720 ms)
+[2025.11.08-19.35.25:072][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.08-19.35.25:118][724]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.35.25:130][724]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.08-19.35.25:133][724]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.649 ms (total: 197.850 ms)
+[2025.11.08-19.35.25:133][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016168s)
+[2025.11.08-19.35.25:133][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UE5_Quoridor.UE5_Quoridor to /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor (0.016206s)
+[2025.11.08-19.35.25:200][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.11.08-19.35.25:202][724]LogChaosDD: Creating Chaos Debug Draw Scene for world UE5_Quoridor
+[2025.11.08-19.35.25:203][724]LogWorldPartition: ULevel::OnLevelLoaded(UE5_Quoridor)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.08-19.35.25:203][724]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.08-19.35.25:228][724]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.08-19.35.25:228][724]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.08-19.35.25:228][724]LogWorldPartition: Display: WorldPartition initialize took 4.689 ms (total: 574.464 ms)
+[2025.11.08-19.35.25:228][724]LogPlayLevel: PIE: World Init took: (0.006371s)
+[2025.11.08-19.35.25:228][724]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2025.11.08-19.35.25:228][724]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.08-19.35.25:228][724]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.08-19.35.25:228][724]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.08-19.35.25:228][724]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.08-19.35.25:228][724]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.08-19.35.25:228][724]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.08-19.35.25:228][724]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.08-19.35.25:228][724]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.08-19.35.25:228][724]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.08-19.35.25:228][724]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.08-19.35.25:228][724]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.08-19.35.25:228][724]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.08-19.35.25:237][724]LogAudioMixer: Display: Using Audio Hardware Device Headphones (ROG STRIX Go 2.4)
+[2025.11.08-19.35.25:238][724]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.08-19.35.25:238][724]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.08-19.35.25:238][724]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.08-19.35.25:243][724]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2025.11.08-19.35.25:243][724]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2025.11.08-19.35.25:244][724]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2025.11.08-19.35.25:244][724]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2025.11.08-19.35.25:251][724]LogInit: FAudioDevice initialized with ID 51.
+[2025.11.08-19.35.25:251][724]LogAudio: Display: Audio Device (ID: 51) registered with world 'UE5_Quoridor'.
+[2025.11.08-19.35.25:251][724]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 51
+[2025.11.08-19.35.25:255][724]LogLoad: Game class is 'GM_Quoridor_C'
+[2025.11.08-19.35.25:256][724]LogWorld: Bringing World /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor up for play (max tick rate 0) at 2025.11.08-22.35.25
+[2025.11.08-19.35.25:257][724]LogWorld: Bringing up level for play took: 0.001167
+[2025.11.08-19.35.25:258][724]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2025.11.08-19.35.25:259][724]LogStreaming: Display: FlushAsyncLoading(685,684): 2 QueuedPackages, 0 AsyncPackages
+[2025.11.08-19.35.25:261][724]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.08-19.35.25:276][724]PIE: Server logged in
+[2025.11.08-19.35.25:278][724]PIE: Play in editor total start time 0,207 seconds.
+[2025.11.08-19.35.46:086][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.35.46:086][158]LogWorld: BeginTearingDown for /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.35.46:086][158]LogWorld: UWorld::CleanupWorld for UE5_Quoridor, bSessionEnded=true, bCleanupResources=true
+[2025.11.08-19.35.46:087][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.35.46:087][158]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor
+[2025.11.08-19.35.46:088][158]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.08-19.35.46:092][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.35.46:177][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.35.46:179][158]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 51
+[2025.11.08-19.35.46:179][158]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51, StreamState=4
+[2025.11.08-19.35.46:181][158]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51, StreamState=2
+[2025.11.08-19.35.46:333][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.11.08-19.35.46:711][158]LogPSOHitching: Encountered 50 PSO creation hitches so far (21 graphics, 29 compute). 0 of them were precached.
+[2025.11.08-19.35.46:916][159]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2025.11.08-19.36.43:009][179]LogUObjectHash: Compacting FUObjectHashTables data took   6.55ms
+[2025.11.08-19.36.43:605][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-19.36.43:623][221]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.08-19.36.43:623][221]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.08-19.36.43:648][221]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.08-19.36.43:649][221]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor03F08FA1415A5070E06575B441E435D7.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.08-19.36.43:656][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 51.393 ms (total: 4.89 sec)
+[2025.11.08-19.36.43:685][221]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-19.36.43:685][221]LogContentValidation: Enabled validators:
+[2025.11.08-19.36.43:685][221]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-19.36.43:685][221]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-19.36.43:685][221]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-19.36.43:685][221]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-19.36.43:685][221]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-19.36.43:685][221]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-19.36.43:685][221]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.08-19.36.46:448][519]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.08-19.36.46:453][519]LogContentBundle: [UE5_Quoridor(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.08-19.36.46:453][519]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' started...
+[2025.11.08-19.36.46:454][519]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' took 604 us (total: 363.325 ms)
+[2025.11.08-19.36.46:454][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.08-19.36.46:557][519]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.36.46:575][519]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.08-19.36.46:578][519]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.638 ms (total: 201.488 ms)
+[2025.11.08-19.36.46:578][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020603s)
+[2025.11.08-19.36.46:578][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UE5_Quoridor.UE5_Quoridor to /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor (0.020701s)
+[2025.11.08-19.36.46:608][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.08-19.36.46:611][519]LogChaosDD: Creating Chaos Debug Draw Scene for world UE5_Quoridor
+[2025.11.08-19.36.46:612][519]LogWorldPartition: ULevel::OnLevelLoaded(UE5_Quoridor)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.08-19.36.46:612][519]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.08-19.36.46:612][519]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.08-19.36.46:612][519]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.08-19.36.46:616][519]LogWorldPartition: Display: WorldPartition initialize took 4.582 ms (total: 579.047 ms)
+[2025.11.08-19.36.46:616][519]LogPlayLevel: PIE: World Init took: (0.006004s)
+[2025.11.08-19.36.46:617][519]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2025.11.08-19.36.46:617][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.08-19.36.46:617][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.08-19.36.46:617][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.08-19.36.46:617][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.08-19.36.46:617][519]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.08-19.36.46:617][519]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.08-19.36.46:617][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.08-19.36.46:617][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.08-19.36.46:617][519]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.08-19.36.46:617][519]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.08-19.36.46:617][519]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.08-19.36.46:619][519]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.08-19.36.46:647][519]LogAudioMixer: Display: Using Audio Hardware Device Headphones (ROG STRIX Go 2.4)
+[2025.11.08-19.36.46:647][519]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.08-19.36.46:647][519]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.08-19.36.46:647][519]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.08-19.36.46:648][519]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2025.11.08-19.36.46:648][519]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2025.11.08-19.36.46:649][519]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2025.11.08-19.36.46:649][519]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2025.11.08-19.36.46:649][519]LogInit: FAudioDevice initialized with ID 52.
+[2025.11.08-19.36.46:650][519]LogAudio: Display: Audio Device (ID: 52) registered with world 'UE5_Quoridor'.
+[2025.11.08-19.36.46:650][519]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2025.11.08-19.36.46:653][519]LogLoad: Game class is 'GM_Quoridor_C'
+[2025.11.08-19.36.46:654][519]LogWorld: Bringing World /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor up for play (max tick rate 0) at 2025.11.08-22.36.46
+[2025.11.08-19.36.46:654][519]LogWorld: Bringing up level for play took: 0.001139
+[2025.11.08-19.36.46:655][519]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2025.11.08-19.36.46:657][519]LogStreaming: Display: FlushAsyncLoading(687,686): 2 QueuedPackages, 0 AsyncPackages
+[2025.11.08-19.36.46:658][519]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.08-19.36.46:669][519]PIE: Server logged in
+[2025.11.08-19.36.46:671][519]PIE: Play in editor total start time 0,218 seconds.
+[2025.11.08-19.37.36:808][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.37.36:808][456]LogWorld: BeginTearingDown for /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.37.36:809][456]LogWorld: UWorld::CleanupWorld for UE5_Quoridor, bSessionEnded=true, bCleanupResources=true
+[2025.11.08-19.37.36:810][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.37.36:810][456]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor
+[2025.11.08-19.37.36:811][456]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.08-19.37.36:813][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.37.36:876][456]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.08-19.37.36:876][456]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2025.11.08-19.37.36:876][456]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52, StreamState=4
+[2025.11.08-19.37.36:878][456]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52, StreamState=2
+[2025.11.08-19.37.36:882][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.37.36:884][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.11.08-19.37.36:908][457]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2025.11.08-19.38.10:868][801]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.08-19.38.10:873][801]LogContentBundle: [UE5_Quoridor(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.08-19.38.10:873][801]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' started...
+[2025.11.08-19.38.10:873][801]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' took 636 us (total: 363.961 ms)
+[2025.11.08-19.38.10:873][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.08-19.38.10:895][801]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.38.10:908][801]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.08-19.38.10:912][801]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.817 ms (total: 205.306 ms)
+[2025.11.08-19.38.10:913][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017125s)
+[2025.11.08-19.38.10:913][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UE5_Quoridor.UE5_Quoridor to /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor (0.017164s)
+[2025.11.08-19.38.10:933][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.11.08-19.38.10:936][801]LogChaosDD: Creating Chaos Debug Draw Scene for world UE5_Quoridor
+[2025.11.08-19.38.10:937][801]LogWorldPartition: ULevel::OnLevelLoaded(UE5_Quoridor)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.08-19.38.10:937][801]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.08-19.38.10:937][801]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.08-19.38.10:937][801]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.08-19.38.10:942][801]LogWorldPartition: Display: WorldPartition initialize took 5.122 ms (total: 584.169 ms)
+[2025.11.08-19.38.10:942][801]LogPlayLevel: PIE: World Init took: (0.006706s)
+[2025.11.08-19.38.10:943][801]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2025.11.08-19.38.10:943][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.08-19.38.10:943][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.08-19.38.10:943][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.08-19.38.10:943][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.08-19.38.10:943][801]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.08-19.38.10:943][801]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.08-19.38.10:943][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.08-19.38.10:943][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.08-19.38.10:943][801]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.08-19.38.10:943][801]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.08-19.38.10:943][801]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.08-19.38.10:945][801]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.08-19.38.10:974][801]LogAudioMixer: Display: Using Audio Hardware Device Headphones (ROG STRIX Go 2.4)
+[2025.11.08-19.38.10:974][801]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.08-19.38.10:974][801]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.08-19.38.10:974][801]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.08-19.38.10:975][801]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2025.11.08-19.38.10:981][801]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2025.11.08-19.38.10:981][801]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2025.11.08-19.38.10:981][801]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2025.11.08-19.38.10:981][801]LogInit: FAudioDevice initialized with ID 53.
+[2025.11.08-19.38.10:981][801]LogAudio: Display: Audio Device (ID: 53) registered with world 'UE5_Quoridor'.
+[2025.11.08-19.38.10:981][801]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 53
+[2025.11.08-19.38.10:992][801]LogLoad: Game class is 'GM_Quoridor_C'
+[2025.11.08-19.38.10:995][801]LogWorld: Bringing World /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor up for play (max tick rate 0) at 2025.11.08-22.38.10
+[2025.11.08-19.38.10:995][801]LogWorld: Bringing up level for play took: 0.002388
+[2025.11.08-19.38.10:997][801]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2025.11.08-19.38.10:998][801]LogStreaming: Display: FlushAsyncLoading(689,688): 2 QueuedPackages, 0 AsyncPackages
+[2025.11.08-19.38.11:000][801]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.08-19.38.11:010][801]PIE: Server logged in
+[2025.11.08-19.38.11:012][801]PIE: Play in editor total start time 0,139 seconds.
+[2025.11.08-19.38.38:490][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.38.38:490][543]LogWorld: BeginTearingDown for /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.38.38:491][543]LogWorld: UWorld::CleanupWorld for UE5_Quoridor, bSessionEnded=true, bCleanupResources=true
+[2025.11.08-19.38.38:492][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.38.38:492][543]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor
+[2025.11.08-19.38.38:493][543]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.08-19.38.38:495][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.38.38:551][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.38.38:551][543]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 53
+[2025.11.08-19.38.38:551][543]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53, StreamState=4
+[2025.11.08-19.38.38:621][543]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53, StreamState=2
+[2025.11.08-19.38.38:671][543]LogUObjectHash: Compacting FUObjectHashTables data took  12.49ms
+[2025.11.08-19.38.38:695][544]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2025.11.08-19.40.00:375][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.08-19.40.01:036][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.08-19.40.01:098][938]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.08-19.40.01:098][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.08-19.40.01:124][938]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.08-19.40.01:125][938]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_QuoridorB1A5C20E45B5A13B375E30A98E4B79A4.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.08-19.40.01:133][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.341 ms (total: 4.99 sec)
+[2025.11.08-19.40.01:167][938]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.08-19.40.01:167][938]LogContentValidation: Enabled validators:
+[2025.11.08-19.40.01:167][938]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.08-19.40.01:167][938]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.08-19.40.01:167][938]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.08-19.40.01:167][938]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.08-19.40.01:167][938]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.08-19.40.01:167][938]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.08-19.40.01:167][938]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.08-19.40.02:643][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.08-19.40.05:218][346]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.08-19.40.05:223][346]LogContentBundle: [UE5_Quoridor(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.08-19.40.05:223][346]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' started...
+[2025.11.08-19.40.05:224][346]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' took 680 us (total: 364.642 ms)
+[2025.11.08-19.40.05:224][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.08-19.40.05:322][346]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.40.05:335][346]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.08-19.40.05:338][346]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.708 ms (total: 209.014 ms)
+[2025.11.08-19.40.05:339][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016657s)
+[2025.11.08-19.40.05:339][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UE5_Quoridor.UE5_Quoridor to /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor (0.016700s)
+[2025.11.08-19.40.05:365][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.08-19.40.05:366][346]LogChaosDD: Creating Chaos Debug Draw Scene for world UE5_Quoridor
+[2025.11.08-19.40.05:368][346]LogWorldPartition: ULevel::OnLevelLoaded(UE5_Quoridor)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.08-19.40.05:368][346]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.08-19.40.05:368][346]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.08-19.40.05:368][346]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.08-19.40.05:372][346]LogWorldPartition: Display: WorldPartition initialize took 4.754 ms (total: 588.923 ms)
+[2025.11.08-19.40.05:372][346]LogPlayLevel: PIE: World Init took: (0.006398s)
+[2025.11.08-19.40.05:373][346]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2025.11.08-19.40.05:373][346]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.08-19.40.05:373][346]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.08-19.40.05:373][346]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.08-19.40.05:373][346]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.08-19.40.05:373][346]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.08-19.40.05:373][346]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.08-19.40.05:373][346]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.08-19.40.05:373][346]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.08-19.40.05:373][346]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.08-19.40.05:373][346]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.08-19.40.05:373][346]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.08-19.40.05:411][346]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.08-19.40.05:439][346]LogAudioMixer: Display: Using Audio Hardware Device Headphones (ROG STRIX Go 2.4)
+[2025.11.08-19.40.05:439][346]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.08-19.40.05:439][346]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.08-19.40.05:439][346]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.08-19.40.05:440][346]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2025.11.08-19.40.05:440][346]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2025.11.08-19.40.05:456][346]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2025.11.08-19.40.05:456][346]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2025.11.08-19.40.05:456][346]LogInit: FAudioDevice initialized with ID 54.
+[2025.11.08-19.40.05:456][346]LogAudio: Display: Audio Device (ID: 54) registered with world 'UE5_Quoridor'.
+[2025.11.08-19.40.05:456][346]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2025.11.08-19.40.05:460][346]LogLoad: Game class is 'GM_Quoridor_C'
+[2025.11.08-19.40.05:460][346]LogWorld: Bringing World /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor up for play (max tick rate 0) at 2025.11.08-22.40.05
+[2025.11.08-19.40.05:461][346]LogWorld: Bringing up level for play took: 0.001159
+[2025.11.08-19.40.05:463][346]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2025.11.08-19.40.05:464][346]LogStreaming: Display: FlushAsyncLoading(691,690): 2 QueuedPackages, 0 AsyncPackages
+[2025.11.08-19.40.05:466][346]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.08-19.40.05:478][346]PIE: Server logged in
+[2025.11.08-19.40.05:480][346]PIE: Play in editor total start time 0,256 seconds.
+[2025.11.08-19.40.08:928][723]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11185.206055
+[2025.11.08-19.40.09:106][744]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.08-19.40.09:106][744]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11185.375977, Update Interval: 343.272797
+[2025.11.08-19.40.50:603][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.40.50:603][643]LogWorld: BeginTearingDown for /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.08-19.40.50:604][643]LogWorld: UWorld::CleanupWorld for UE5_Quoridor, bSessionEnded=true, bCleanupResources=true
+[2025.11.08-19.40.50:604][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.40.50:605][643]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor
+[2025.11.08-19.40.50:607][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.08-19.40.50:610][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.08-19.40.50:665][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.08-19.40.50:665][643]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2025.11.08-19.40.50:665][643]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54, StreamState=4
+[2025.11.08-19.40.50:667][643]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54, StreamState=2
+[2025.11.08-19.40.50:672][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.11.08-19.40.50:693][644]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2025.11.08-19.45.30:932][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
