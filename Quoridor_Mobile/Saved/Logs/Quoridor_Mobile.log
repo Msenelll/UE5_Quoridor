@@ -6920,3 +6920,839 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.16-15.31.29:529][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
 [2025.11.16-15.31.29:549][601]LogPlayLevel: Display: Destroying online subsystem :Context_21
 [2025.11.16-15.31.31:193][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.11.16-15.36.08:158][297]LogDerivedDataCache: C:/Users/msene/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.16-15.37.36:824][562]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6996.723145
+[2025.11.16-15.37.37:822][565]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-15.37.37:822][565]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6997.391602, Update Interval: 345.466492
+[2025.11.16-15.42.30:765][666]LogSlate: Took 0.037122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.11.16-15.43.06:420][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.11.16-15.43.32:430][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.11.16-15.43.32:432][382]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UE5_Quoridor' took 0.027
+[2025.11.16-15.43.32:432][382]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-15.43.32:433][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-15.43.32:470][382]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto6
+[2025.11.16-15.43.32:470][382]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor_Auto64E415A9F4971B6C4515CCE930DB4F484.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto6.uasset'
+[2025.11.16-15.43.32:471][382]LogFileHelpers: Auto-saving content packages took 0.039
+[2025.11.16-15.43.46:943][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-15.43.46:969][ 61]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-15.43.46:969][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-15.43.47:004][ 61]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.16-15.43.47:005][ 61]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_QuoridorDD0DBBEA4C84224C8A9083A63B2E8E56.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.16-15.43.47:011][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.591 ms (total: 965.867 ms)
+[2025.11.16-15.43.47:039][ 61]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-15.43.47:039][ 61]LogContentValidation: Enabled validators:
+[2025.11.16-15.43.47:039][ 61]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-15.43.47:039][ 61]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-15.43.47:039][ 61]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-15.43.47:039][ 61]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-15.43.47:039][ 61]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-15.43.47:039][ 61]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-15.43.47:039][ 61]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.16-15.43.48:199][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.16-15.44.01:181][643]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7381.063477
+[2025.11.16-15.44.01:357][663]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-15.44.01:357][663]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7381.231445, Update Interval: 356.832184
+[2025.11.16-15.44.48:477][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-15.44.48:496][ 75]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/GS_Quoridor] ([2] browsable assets)...
+[2025.11.16-15.44.48:496][ 75]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/GS_Quoridor]
+[2025.11.16-15.44.48:528][ 75]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/GS_Quoridor
+[2025.11.16-15.44.48:528][ 75]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/GS_QuoridorD173404A4147EB8CEFE577AA971F4C04.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/GS_Quoridor.uasset'
+[2025.11.16-15.44.48:535][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.489 ms (total: 1.02 sec)
+[2025.11.16-15.44.48:567][ 75]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-15.44.48:567][ 75]LogContentValidation: Enabled validators:
+[2025.11.16-15.44.48:567][ 75]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-15.44.48:567][ 75]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-15.44.48:567][ 75]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-15.44.48:567][ 75]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-15.44.48:567][ 75]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-15.44.48:567][ 75]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-15.44.48:567][ 75]AssetCheck: /Game/02_Blueprint/01_Core/GS_Quoridor Validating asset
+[2025.11.16-15.50.36:917][557]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7776.720215
+[2025.11.16-15.50.37:917][560]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-15.50.37:917][560]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7777.386230, Update Interval: 356.497070
+[2025.11.16-15.51.09:331][594]LogEditorTransaction: Undo Move Node
+[2025.11.16-15.56.38:703][712]LogEditorTransaction: Undo Move Node
+[2025.11.16-15.56.39:047][724]LogEditorTransaction: Undo Paste clipboard contents
+[2025.11.16-15.56.39:340][742]LogEditorTransaction: Undo Move Node
+[2025.11.16-15.56.39:728][782]LogEditorTransaction: Undo Change Number Pin Value
+[2025.11.16-15.56.40:795][891]LogEditorTransaction: Undo Change Number Pin Value
+[2025.11.16-15.56.41:218][930]LogEditorTransaction: Undo Split Struct Pin
+[2025.11.16-15.56.41:609][967]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-15.57.07:728][831]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8167.419434
+[2025.11.16-15.57.07:919][851]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-15.57.07:919][852]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8167.599609, Update Interval: 316.025879
+[2025.11.16-15.58.01:548][870]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-15.58.01:548][870]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-15.58.01:548][870]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-15.58.01:548][870]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-15.58.01:548][870]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-15.58.01:548][870]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-15.58.01:548][870]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-15.58.01:548][870]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-15.58.01:548][870]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-15.58.44:778][680]LogEditorTransaction: Undo Move Node
+[2025.11.16-15.58.45:676][739]LogEditorTransaction: Undo Create Reroute Node
+[2025.11.16-16.00.51:145][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.11.16-16.00.51:147][128]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UE5_Quoridor' took 0.024
+[2025.11.16-16.00.51:147][128]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-16.00.51:147][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-16.00.51:186][128]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto7
+[2025.11.16-16.00.51:187][128]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor_Auto71F129A93436E8AE82649249F3A384689.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto7.uasset'
+[2025.11.16-16.00.51:187][128]LogFileHelpers: Auto-saving content packages took 0.040
+[2025.11.16-16.03.08:626][478]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8529.321289
+[2025.11.16-16.03.09:624][481]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-16.03.09:624][481]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8529.987305, Update Interval: 330.343323
+[2025.11.16-16.09.38:184][487]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8919.180664
+[2025.11.16-16.09.38:370][509]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-16.09.38:370][509]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8919.357422, Update Interval: 346.008484
+[2025.11.16-16.11.31:574][634]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-16.11.31:574][634]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-16.11.31:574][634]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-16.11.31:574][634]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-16.11.31:574][634]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-16.11.31:574][634]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-16.11.31:574][634]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-16.11.31:574][634]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-16.11.31:574][634]LogWindows: Warning: OpenClipboard failed with error code 5
+[2025.11.16-16.13.54:158][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.11.16-16.13.54:160][611]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UE5_Quoridor' took 0.023
+[2025.11.16-16.13.54:160][611]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-16.13.54:160][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-16.13.54:202][611]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto8
+[2025.11.16-16.13.54:202][611]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor_Auto81F937FC34B4ECEB5EB9F34B277294CBF.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto8.uasset'
+[2025.11.16-16.13.54:203][611]LogFileHelpers: Auto-saving content packages took 0.043
+[2025.11.16-16.16.05:065][ 25]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9306.781250
+[2025.11.16-16.16.05:244][ 45]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-16.16.05:244][ 45]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9306.950195, Update Interval: 307.502075
+[2025.11.16-16.21.23:613][995]LogEditorTransaction: Undo Add Node
+[2025.11.16-16.22.02:631][392]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9665.737305
+[2025.11.16-16.22.03:630][395]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-16.22.03:630][395]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9666.402344, Update Interval: 319.296234
+[2025.11.16-16.23.54:618][141]LogUObjectHash: Compacting FUObjectHashTables data took  14.60ms
+[2025.11.16-16.23.54:622][141]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UE5_Quoridor' took 0.041
+[2025.11.16-16.23.54:622][141]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-16.23.54:622][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-16.23.54:667][141]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto9
+[2025.11.16-16.23.54:667][141]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor_Auto9D9DEB5114262588A7AEBB3AB66FAB3AA.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto9.uasset'
+[2025.11.16-16.23.54:668][141]LogFileHelpers: Auto-saving content packages took 0.046
+[2025.11.16-16.28.02:517][803]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10025.760742
+[2025.11.16-16.28.02:712][826]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-16.28.02:712][826]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10025.950195, Update Interval: 353.589294
+[2025.11.16-16.34.22:976][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.11.16-16.34.22:978][585]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UE5_Quoridor' took 0.023
+[2025.11.16-16.34.22:979][585]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-16.34.22:979][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-16.34.23:021][585]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto0
+[2025.11.16-16.34.23:022][585]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor_Auto06B1BFCFA44ADCBFA781C18ACC91727CF.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto0.uasset'
+[2025.11.16-16.34.23:023][585]LogFileHelpers: Auto-saving content packages took 0.044
+[2025.11.16-16.34.45:825][ 15]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10429.463867
+[2025.11.16-16.34.46:006][ 36]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-16.34.46:006][ 36]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10429.638672, Update Interval: 342.998138
+[2025.11.16-16.36.08:327][151]LogDerivedDataCache: C:/Users/msene/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.16-16.39.39:244][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.11.16-16.39.39:848][766]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-16.39.39:874][766]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-16.39.39:874][766]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-16.39.39:919][766]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.16-16.39.39:919][766]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor9B183A1A43508DE51B4CEEA26C2EBE9B.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.16-16.39.39:926][766]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.052 ms (total: 1.10 sec)
+[2025.11.16-16.39.39:958][766]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-16.39.39:958][766]LogContentValidation: Enabled validators:
+[2025.11.16-16.39.39:958][766]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-16.39.39:958][766]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-16.39.39:958][766]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-16.39.39:958][766]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-16.39.39:958][766]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-16.39.39:958][766]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-16.39.39:959][766]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.16-16.40.46:613][246]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-16.40.47:397][287]LogEditorTransaction: Undo Create Reroute Node
+[2025.11.16-16.41.15:509][626]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10820.685547
+[2025.11.16-16.41.15:682][641]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-16.41.15:682][641]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10820.848633, Update Interval: 321.466095
+[2025.11.16-16.43.24:968][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.11.16-16.43.25:560][169]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-16.43.25:588][169]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-16.43.25:588][169]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-16.43.25:633][169]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.16-16.43.25:633][169]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor5357B2A14D11103FF8839EB6CD60677C.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.16-16.43.25:640][169]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.335 ms (total: 1.18 sec)
+[2025.11.16-16.43.25:670][169]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-16.43.25:670][169]LogContentValidation: Enabled validators:
+[2025.11.16-16.43.25:670][169]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-16.43.25:670][169]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-16.43.25:671][169]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-16.43.25:671][169]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-16.43.25:671][169]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-16.43.25:671][169]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-16.43.25:671][169]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.16-16.45.06:696][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.16-16.45.06:699][567]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UE5_Quoridor' took 0.025
+[2025.11.16-16.45.06:699][567]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-16.45.06:699][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-16.45.06:744][567]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto1
+[2025.11.16-16.45.06:745][567]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor_Auto19EDDB3F94F34D87BCC8268AFF4296C8B.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto1.uasset'
+[2025.11.16-16.45.06:745][567]LogFileHelpers: Auto-saving content packages took 0.047
+[2025.11.16-16.47.19:767][ 58]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11183.529297
+[2025.11.16-16.47.19:965][ 80]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-16.47.19:965][ 80]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11183.716797, Update Interval: 312.863556
+[2025.11.16-16.53.29:831][795]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11549.458008
+[2025.11.16-16.53.30:021][816]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-16.53.30:021][816]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11549.636719, Update Interval: 352.695709
+[2025.11.16-16.55.06:868][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.11.16-16.55.06:871][452]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UE5_Quoridor' took 0.025
+[2025.11.16-16.55.06:871][452]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-16.55.06:871][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-16.55.06:909][452]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto2
+[2025.11.16-16.55.06:909][452]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor_Auto2CC91C95348B5992DCF48CB895C86E395.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto2.uasset'
+[2025.11.16-16.55.06:910][452]LogFileHelpers: Auto-saving content packages took 0.040
+[2025.11.16-17.00.20:572][209]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11956.296875
+[2025.11.16-17.00.20:751][229]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-17.00.20:751][229]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11956.464844, Update Interval: 301.353180
+[2025.11.16-17.05.53:847][223]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12286.429688
+[2025.11.16-17.05.54:037][244]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-17.05.54:037][244]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12286.608398, Update Interval: 305.196686
+[2025.11.16-17.11.39:452][547]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12628.869141
+[2025.11.16-17.11.39:644][568]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-17.11.39:644][568]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12629.048828, Update Interval: 341.619324
+[2025.11.16-17.17.58:250][587]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13004.104492
+[2025.11.16-17.17.58:439][608]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-17.17.58:439][608]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13004.281250, Update Interval: 344.003418
+[2025.11.16-17.24.41:035][317]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13403.092773
+[2025.11.16-17.24.41:224][338]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-17.24.41:224][338]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13403.269531, Update Interval: 359.236420
+[2025.11.16-17.31.33:129][ 28]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13811.289062
+[2025.11.16-17.31.33:292][ 46]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-17.31.33:292][ 46]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13811.441406, Update Interval: 341.969055
+[2025.11.16-17.36.08:545][570]LogDerivedDataCache: C:/Users/msene/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.16-17.38.07:148][732]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14201.570312
+[2025.11.16-17.38.07:317][751]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-17.38.07:317][751]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14201.730469, Update Interval: 313.608826
+[2025.11.16-17.43.55:959][ 78]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14549.043945
+[2025.11.16-17.43.56:150][100]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-17.43.56:151][100]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14549.225586, Update Interval: 327.309174
+[2025.11.16-17.44.04:478][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.11.16-17.44.04:481][ 78]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/UE5_Quoridor' took 0.025
+[2025.11.16-17.44.04:481][ 78]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-17.44.04:481][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-17.44.04:520][ 78]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto3
+[2025.11.16-17.44.04:521][ 78]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor_Auto3103C547B4697C12E7FACA4AAAE0DC829.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/Autosaves/Game/02_Blueprint/01_Core/PC_Quoridor_Auto3.uasset'
+[2025.11.16-17.44.04:522][ 78]LogFileHelpers: Auto-saving content packages took 0.040
+[2025.11.16-17.45.39:175][520]LogEditorTransaction: Undo Move Nodes
+[2025.11.16-17.45.39:439][525]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.45.39:675][529]LogEditorTransaction: Undo Resize Node
+[2025.11.16-17.45.39:870][534]LogEditorTransaction: Undo Move Nodes
+[2025.11.16-17.45.40:080][544]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.45.40:274][552]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.40:468][560]LogEditorTransaction: Undo Add Node
+[2025.11.16-17.45.40:671][569]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.40:839][574]LogEditorTransaction: Undo Create Reroute Node
+[2025.11.16-17.45.41:040][583]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.41:227][590]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.45.41:429][599]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.45.41:648][610]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.41:825][616]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.42:035][626]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.42:237][635]LogEditorTransaction: Undo Create Reroute Node
+[2025.11.16-17.45.42:446][645]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.42:657][655]LogEditorTransaction: Undo Add Node
+[2025.11.16-17.45.42:855][663]LogEditorTransaction: Undo Comment Changed
+[2025.11.16-17.45.43:062][666]LogEditorTransaction: Undo Comment Bubble Visibility
+[2025.11.16-17.45.43:293][670]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.43:966][727]LogEditorTransaction: Redo Move Node
+[2025.11.16-17.45.44:142][733]LogEditorTransaction: Redo Comment Bubble Visibility
+[2025.11.16-17.45.44:331][741]LogEditorTransaction: Redo Comment Changed
+[2025.11.16-17.45.44:515][748]LogEditorTransaction: Redo Add Node
+[2025.11.16-17.45.44:700][755]LogEditorTransaction: Redo Move Node
+[2025.11.16-17.45.44:890][762]LogEditorTransaction: Redo Create Reroute Node
+[2025.11.16-17.45.45:092][770]LogEditorTransaction: Redo Move Node
+[2025.11.16-17.45.45:284][778]LogEditorTransaction: Redo Move Node
+[2025.11.16-17.45.45:487][787]LogEditorTransaction: Redo Move Node
+[2025.11.16-17.45.45:700][797]LogEditorTransaction: Redo Create Pin Link
+[2025.11.16-17.45.45:914][807]LogEditorTransaction: Redo Create Pin Link
+[2025.11.16-17.45.46:140][819]LogEditorTransaction: Redo Move Node
+[2025.11.16-17.45.46:343][828]LogEditorTransaction: Redo Create Reroute Node
+[2025.11.16-17.45.46:551][837]LogEditorTransaction: Redo Move Node
+[2025.11.16-17.45.46:757][840]LogEditorTransaction: Redo Add Node
+[2025.11.16-17.45.46:939][842]LogEditorTransaction: Redo Move Node
+[2025.11.16-17.45.47:139][846]LogEditorTransaction: Redo Create Pin Link
+[2025.11.16-17.45.47:333][854]LogEditorTransaction: Redo Move Nodes
+[2025.11.16-17.45.47:554][865]LogEditorTransaction: Redo Resize Node
+[2025.11.16-17.45.48:070][910]LogEditorTransaction: Redo Create Pin Link
+[2025.11.16-17.45.54:790][285]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.45.55:011][288]LogEditorTransaction: Undo Resize Node
+[2025.11.16-17.45.55:177][289]LogEditorTransaction: Undo Move Nodes
+[2025.11.16-17.45.55:386][292]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.45.55:593][296]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.55:806][303]LogEditorTransaction: Undo Add Node
+[2025.11.16-17.45.55:998][308]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.56:255][319]LogEditorTransaction: Undo Create Reroute Node
+[2025.11.16-17.45.56:447][324]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.56:655][330]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.45.56:869][337]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.45.57:095][345]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.57:288][350]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.57:519][357]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.57:704][361]LogEditorTransaction: Undo Create Reroute Node
+[2025.11.16-17.45.57:917][365]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.58:155][373]LogEditorTransaction: Undo Add Node
+[2025.11.16-17.45.58:356][379]LogEditorTransaction: Undo Comment Changed
+[2025.11.16-17.45.58:595][388]LogEditorTransaction: Undo Comment Bubble Visibility
+[2025.11.16-17.45.58:819][391]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.59:012][393]LogEditorTransaction: Undo Add Node
+[2025.11.16-17.45.59:222][397]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.59:431][404]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.45.59:650][412]LogEditorTransaction: Undo Create Reroute Node
+[2025.11.16-17.45.59:845][418]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.46.00:039][424]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.46.00:257][432]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.46.00:466][438]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.46.00:687][446]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.46.00:894][453]LogEditorTransaction: Undo Resize Node
+[2025.11.16-17.46.01:126][462]LogEditorTransaction: Undo Rename Node
+[2025.11.16-17.46.01:370][470]LogEditorTransaction: Undo Add Node
+[2025.11.16-17.46.01:591][478]LogEditorTransaction: Undo Create Pin Link
+[2025.11.16-17.46.01:813][486]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.46.02:031][491]LogEditorTransaction: Undo Move Nodes
+[2025.11.16-17.46.02:265][499]LogEditorTransaction: Undo Delete current selection
+[2025.11.16-17.46.02:490][502]LogEditorTransaction: Undo Delete current selection
+[2025.11.16-17.46.02:686][504]LogEditorTransaction: Undo Delete current selection
+[2025.11.16-17.46.02:905][505]LogEditorTransaction: Undo Move Nodes
+[2025.11.16-17.46.03:148][506]LogEditorTransaction: Undo Move Node
+[2025.11.16-17.46.04:550][584]LogEditorTransaction: Undo Comment Changed
+[2025.11.16-17.46.05:249][617]LogEditorTransaction: Undo Comment Bubble Visibility
+[2025.11.16-17.49.45:872][140]LogUObjectHash: Compacting FUObjectHashTables data took 279.98ms
+[2025.11.16-17.49.46:915][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-17.49.46:947][198]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-17.49.46:948][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-17.49.46:989][198]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.16-17.49.46:989][198]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_QuoridorA021AC5F4583DABABD0D3DA3A39BD49B.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.16-17.49.46:996][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.346 ms (total: 1.26 sec)
+[2025.11.16-17.49.47:031][198]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-17.49.47:031][198]LogContentValidation: Enabled validators:
+[2025.11.16-17.49.47:031][198]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-17.49.47:031][198]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-17.49.47:031][198]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-17.49.47:031][198]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-17.49.47:031][198]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-17.49.47:031][198]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-17.49.47:031][198]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.16-17.49.54:068][741]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.16-17.49.54:074][741]LogContentBundle: [UE5_Quoridor(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.16-17.49.54:074][741]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' started...
+[2025.11.16-17.49.54:075][741]LogWorldPartition: Display: GenerateStreaming for 'UE5_Quoridor' took 865 us (total: 47.654 ms)
+[2025.11.16-17.49.54:075][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.16-17.49.54:075][741]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.16-17.49.54:090][741]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.16-17.49.54:094][741]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.181 ms (total: 53.766 ms)
+[2025.11.16-17.49.54:094][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018519s)
+[2025.11.16-17.49.54:094][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UE5_Quoridor.UE5_Quoridor to /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor (0.018566s)
+[2025.11.16-17.49.54:113][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.16-17.49.54:118][741]LogChaosDD: Creating Chaos Debug Draw Scene for world UE5_Quoridor
+[2025.11.16-17.49.54:120][741]LogWorldPartition: ULevel::OnLevelLoaded(UE5_Quoridor)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.16-17.49.54:120][741]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.16-17.49.54:120][741]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.16-17.49.54:120][741]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.16-17.49.54:124][741]LogWorldPartition: Display: WorldPartition initialize took 4.916 ms (total: 394.539 ms)
+[2025.11.16-17.49.54:125][741]LogPlayLevel: PIE: World Init took: (0.007133s)
+[2025.11.16-17.49.54:125][741]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.11.16-17.49.54:125][741]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.16-17.49.54:125][741]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.16-17.49.54:125][741]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.16-17.49.54:125][741]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.16-17.49.54:125][741]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.16-17.49.54:125][741]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.16-17.49.54:125][741]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.16-17.49.54:125][741]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.16-17.49.54:125][741]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.16-17.49.54:125][741]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.16-17.49.54:125][741]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.16-17.49.54:162][741]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.16-17.49.54:204][741]LogAudioMixer: Display: Using Audio Hardware Device Headphones (ROG STRIX Go 2.4)
+[2025.11.16-17.49.54:206][741]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.16-17.49.54:206][741]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.16-17.49.54:206][741]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.16-17.49.54:206][741]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.11.16-17.49.54:206][741]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.11.16-17.49.54:218][741]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.11.16-17.49.54:218][741]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.11.16-17.49.54:218][741]LogInit: FAudioDevice initialized with ID 15.
+[2025.11.16-17.49.54:218][741]LogAudio: Display: Audio Device (ID: 15) registered with world 'UE5_Quoridor'.
+[2025.11.16-17.49.54:218][741]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.11.16-17.49.54:229][741]LogLoad: Game class is 'GM_Quoridor_C'
+[2025.11.16-17.49.54:231][741]LogWorld: Bringing World /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor up for play (max tick rate 0) at 2025.11.16-20.49.54
+[2025.11.16-17.49.54:231][741]LogWorld: Bringing up level for play took: 0.001849
+[2025.11.16-17.49.54:233][741]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.11.16-17.49.54:245][741]LogStreaming: Display: FlushAsyncLoading(631,630): 2 QueuedPackages, 0 AsyncPackages
+[2025.11.16-17.49.54:254][741]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.16-17.49.54:271][741]PIE: Server logged in
+[2025.11.16-17.49.54:273][741]PIE: Play in editor total start time 0,199 seconds.
+[2025.11.16-17.50.04:157][908]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14917.228516
+[2025.11.16-17.50.04:278][923]LogBlueprintUserMessages: [PC_Quoridor_C_0] X=600.000 Y=150.000 Z=0.000
+[2025.11.16-17.50.04:323][928]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-17.50.04:323][928]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14917.385742, Update Interval: 313.308502
+[2025.11.16-17.50.09:020][492]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [4,7] -> [4,6]
+[2025.11.16-17.50.09:020][492]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.09:020][492]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.09:020][492]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.09:020][492]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.09:020][492]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.09:020][492]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.09:812][587]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [4,1] -> [4,2]
+[2025.11.16-17.50.09:812][587]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.09:812][587]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.09:812][587]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.09:812][587]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: true
+[2025.11.16-17.50.09:812][587]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.09:812][587]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.10:862][713]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [4,1] -> [4,2]
+[2025.11.16-17.50.10:862][713]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.10:862][713]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.10:862][713]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.10:862][713]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: true
+[2025.11.16-17.50.10:862][713]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.10:862][713]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.11:203][754]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [4,1] -> [4,2]
+[2025.11.16-17.50.11:203][754]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.11:203][754]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.11:203][754]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.11:203][754]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: true
+[2025.11.16-17.50.11:203][754]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.11:203][754]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.11:561][797]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [4,1] -> [4,2]
+[2025.11.16-17.50.11:562][797]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.11:562][797]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.11:562][797]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.11:562][797]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: true
+[2025.11.16-17.50.11:562][797]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.11:562][797]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.12:469][906]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [4,1] -> [5,1]
+[2025.11.16-17.50.12:469][906]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.12:469][906]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.12:469][906]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.12:469][906]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.12:469][906]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.12:469][906]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.14:303][126]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [4,6] -> [5,6]
+[2025.11.16-17.50.14:303][126]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.14:303][126]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.14:303][126]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.14:303][126]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.14:303][126]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.14:303][126]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.15:129][225]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,1] -> [5,2]
+[2025.11.16-17.50.15:129][225]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.15:129][225]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.15:129][225]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.15:129][225]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.15:129][225]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.15:129][225]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.15:937][322]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,6] -> [5,5]
+[2025.11.16-17.50.15:937][322]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.15:937][322]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.15:937][322]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.15:937][322]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.15:937][322]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.15:937][322]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.17:727][537]LogBlueprintUserMessages: [PC_Quoridor_C_0] X=750.000 Y=750.000 Z=0.000
+[2025.11.16-17.50.20:495][869]LogBlueprintUserMessages: [PC_Quoridor_C_0] X=750.000 Y=750.000 Z=0.000
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,2] -> [6,2]
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,2] -> [6,2]
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,2] -> [6,2]
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.22:962][165]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,5] -> [6,5]
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,5] -> [6,5]
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,5] -> [6,5]
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: true
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.24:087][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.24:088][300]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.24:711][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,5] -> [4,5]
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,5] -> [4,5]
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: true
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.24:712][375]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.25:603][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,5] -> [5,6]
+[2025.11.16-17.50.25:603][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.25:603][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.25:603][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.25:603][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.25:603][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.25:603][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.25:603][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,5] -> [5,6]
+[2025.11.16-17.50.25:603][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,5] -> [5,6]
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.25:604][482]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.27:599][689]LogBlueprintUserMessages: [PC_Quoridor_C_0] X=900.000 Y=300.000 Z=0.000
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,6] -> [5,5]
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,6] -> [5,5]
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.30:665][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,6] -> [5,5]
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [5,6] -> [5,5]
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [3]: Duvar [6,2], Yatay=true, Pozitif=true
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.30:666][ 57]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [6,2] -> [6,3]
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [6,2] -> [6,3]
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [6,2] -> [6,3]
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [6,2] -> [6,3]
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [3]: Duvar [6,2], Yatay=true, Pozitif=true
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: true
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.31:640][174]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [6,2] -> [7,2]
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [6,2] -> [7,2]
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [6,2] -> [7,2]
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [6,2] -> [7,2]
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [3]: Duvar [6,2], Yatay=true, Pozitif=true
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.32:207][242]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.35:123][592]LogBlueprintUserMessages: [PC_Quoridor_C_0] X=1050.000 Y=300.000 Z=0.000
+[2025.11.16-17.50.36:057][704]LogBlueprintUserMessages: [PC_Quoridor_C_0] X=0.000 Y=0.000 Z=0.000
+[2025.11.16-17.50.36:891][804]LogBlueprintUserMessages: [PC_Quoridor_C_0] X=1050.000 Y=300.000 Z=0.000
+[2025.11.16-17.50.37:699][901]LogBlueprintUserMessages: [PC_Quoridor_C_0] X=1050.000 Y=300.000 Z=0.000
+[2025.11.16-17.50.39:007][ 58]LogBlueprintUserMessages: [PC_Quoridor_C_0] X=1050.000 Y=300.000 Z=0.000
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,3]
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,3]
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,3]
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,3]
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [3]: Duvar [6,2], Yatay=true, Pozitif=true
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,3]
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [4]: Duvar [7,2], Yatay=false, Pozitif=false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,3]
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [5]: Duvar [0,0], Yatay=true, Pozitif=false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,3]
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [6]: Duvar [7,2], Yatay=false, Pozitif=true
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,3]
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [7]: Duvar [7,2], Yatay=true, Pozitif=true
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: true
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.42:699][501]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [8,2]
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [8,2]
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [8,2]
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [8,2]
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [3]: Duvar [6,2], Yatay=true, Pozitif=true
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [8,2]
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [4]: Duvar [7,2], Yatay=false, Pozitif=false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [8,2]
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [5]: Duvar [0,0], Yatay=true, Pozitif=false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [8,2]
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [6]: Duvar [7,2], Yatay=false, Pozitif=true
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: true
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.43:691][620]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,1]
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,1]
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,1]
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,1]
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [3]: Duvar [6,2], Yatay=true, Pozitif=true
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,1]
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [4]: Duvar [7,2], Yatay=false, Pozitif=false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,1]
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [5]: Duvar [0,0], Yatay=true, Pozitif=false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,1]
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [6]: Duvar [7,2], Yatay=false, Pozitif=true
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,1]
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [7]: Duvar [7,2], Yatay=true, Pozitif=true
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [7,1]
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [8]: Duvar [7,2], Yatay=true, Pozitif=false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: true
+[2025.11.16-17.50.44:425][708]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [6,2]
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [0]: Duvar [4,1], Yatay=true, Pozitif=true
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [6,2]
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [1]: Duvar [5,5], Yatay=false, Pozitif=false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [6,2]
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [2]: Duvar [5,5], Yatay=false, Pozitif=true
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [6,2]
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [3]: Duvar [6,2], Yatay=true, Pozitif=true
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Hareket -> [7,2] -> [6,2]
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DÖNGÜ [4]: Duvar [7,2], Yatay=false, Pozitif=false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveRight Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveLeft Sonucu: true
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveUp Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: bBlockedByMoveDown Sonucu: false
+[2025.11.16-17.50.45:000][777]LogBlueprintUserMessages: [GS_Quoridor_C_0] DEBUG: Final Çarpışma Tespiti (OR Kapısı): true
+[2025.11.16-17.50.46:297][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.16-17.50.46:297][928]LogWorld: BeginTearingDown for /Game/UEDPIE_0_UE5_Quoridor
+[2025.11.16-17.50.46:297][928]LogWorld: UWorld::CleanupWorld for UE5_Quoridor, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-17.50.46:298][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-17.50.46:298][928]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_UE5_Quoridor.UE5_Quoridor
+[2025.11.16-17.50.46:300][928]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.16-17.50.46:302][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-17.50.46:324][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.16-17.50.46:324][928]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.11.16-17.50.46:324][928]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2025.11.16-17.50.46:362][928]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2025.11.16-17.50.46:379][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.11.16-17.50.46:402][929]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.11.16-17.51.48:776][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.16-17.51.49:529][783]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-17.51.49:560][783]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/02_Blueprint/01_Core/PC_Quoridor] ([2] browsable assets)...
+[2025.11.16-17.51.49:560][783]OBJ SavePackage: Finished generating thumbnails for package [/Game/02_Blueprint/01_Core/PC_Quoridor]
+[2025.11.16-17.51.49:641][783]LogSavePackage: Moving output files for package: /Game/02_Blueprint/01_Core/PC_Quoridor
+[2025.11.16-17.51.49:641][783]LogSavePackage: Moving 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Saved/PC_Quoridor55641B8C4B05E613193CC9B48A7B77CE.tmp' to 'C:/Users/msene/Documents/VS Code Projects/repo/UE5_Quoridor/Quoridor_Mobile/Content/02_Blueprint/01_Core/PC_Quoridor.uasset'
+[2025.11.16-17.51.49:650][783]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.772 ms (total: 1.38 sec)
+[2025.11.16-17.51.49:679][783]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-17.51.49:679][783]LogContentValidation: Enabled validators:
+[2025.11.16-17.51.49:679][783]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-17.51.49:679][783]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-17.51.49:679][783]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-17.51.49:679][783]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-17.51.49:679][783]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-17.51.49:679][783]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-17.51.49:679][783]AssetCheck: /Game/02_Blueprint/01_Core/PC_Quoridor Validating asset
+[2025.11.16-17.52.57:269][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
