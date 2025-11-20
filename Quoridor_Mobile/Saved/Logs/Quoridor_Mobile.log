@@ -8074,3 +8074,24 @@ Make sure '/Game/02_Blueprint/01_Core/BP_GameBoard.BP_GameBoard_C' has been comp
 [2025.11.16-18.29.38:876][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
 [2025.11.16-18.29.38:897][109]LogPlayLevel: Display: Destroying online subsystem :Context_23
 [2025.11.16-18.29.48:287][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.16-18.33.24:727][342]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17507.187500
+[2025.11.16-18.33.25:726][345]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-18.33.25:726][345]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17507.859375, Update Interval: 354.389465
+[2025.11.16-18.34.03:755][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.11.16-18.34.05:724][808]LogSlate: Window 'BP_GameBoard' being destroyed
+[2025.11.16-18.34.05:741][808]LogSlate: Window 'BP_GameBoard' being destroyed
+[2025.11.16-18.34.06:319][808]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-18.34.06:351][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-18.34.08:194][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.16-18.34.08:194][808]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-18.34.08:194][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-18.34.08:560][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.16-18.34.08:560][808]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-18.34.08:560][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-18.34.09:343][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.16-18.34.09:343][808]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-18.34.09:343][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-18.34.09:648][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.16-18.34.09:648][808]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-18.34.09:648][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-18.34.10:278][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
