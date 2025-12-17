@@ -1,0 +1,11 @@
+[43940:20432:1217/232605.581:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[43940:20432:1217/232606.209:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[43940:41468:1217/232623.020:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[40604:34620:1217/232625.186:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-8C0F4CB6B5BCAC042790EE81EA6F0FD4 will be ignored
+[43940:41468:1217/232638.575:WARNING:browser_info.cc(345)] Returning a speculative frame for [10,9]
+[43940:41468:1217/232639.796:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
+[43940:20432:1217/232639.828:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
+[43940:20432:1217/232639.828:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
+[43940:20432:1217/232639.829:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
+[43940:20432:1217/232639.829:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
+[43940:20432:1217/232934.639:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
