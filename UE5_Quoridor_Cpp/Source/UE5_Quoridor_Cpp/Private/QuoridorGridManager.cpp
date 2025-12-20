@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "QuoridorGridManager.h"
-
+#include "DrawDebugHelpers.h"
 // Constructor
 AQuoridorGridManager::AQuoridorGridManager()
 {
@@ -21,47 +21,56 @@ void AQuoridorGridManager::BeginPlay()
 	// Gridi oluştur
 	InitGrid();
 
-	// Debug Mesajı (Ekrana Yazar - Viewport Sol Üst)
+	// --- LOCALIZATION TEST ---
+	// DÜZELTME: Tırnak içlerini TEXT() makrosuna aldık.
+	// Hatalı: "Common_Loading" -> Doğru: TEXT("Common_Loading")
+
+	FText LoadingText = FText::FromStringTable(
+		TEXT("/Game/_Game/Localization/ST_UI.ST_UI"),
+		TEXT("Common_Loading")
+	);
+
+	// 1. Ekrana Yazdır
 	if (GEngine)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Green,
-			FString::Printf(TEXT("Grid Initialized: %d Nodes Created!"), GridNodes.Num()));
+		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Cyan,
+			FString::Printf(TEXT("Loc Test: %s"), *LoadingText.ToString()));
 	}
 
-	// YENİ EKLEME: Log Dosyasına Yazar (Output Log Panelinde görünür)
-	// LogTemp kategorisini kullanıyoruz, Warning renginde (Sarı) çıkacak.
-	UE_LOG(LogTemp, Warning, TEXT("SUCCESS: Grid Initialized with %d Nodes!"), GridNodes.Num());
+	// 2. Log'a Yazdır
+	UE_LOG(LogTemp, Warning, TEXT("LOCALIZATION SUCCESS: %s"), *LoadingText.ToString());
 }
 
 void AQuoridorGridManager::InitGrid()
 {
-	GridNodes.Empty(); // Temizle (Garanti olsun)
+	GridNodes.Empty();
 
-	// Grid'in merkezini aktörün sahnedeki konumu yapalım
 	FVector OriginLocation = GetActorLocation();
 
-	// 9x9 Döngü
 	for (int32 y = 0; y < GridSize; y++)
 	{
 		for (int32 x = 0; x < GridSize; x++)
 		{
 			FGridNode NewNode;
-
-			// Matematiksel ID hesaplama: y * Genişlik + x
 			NewNode.Index = GetIndexFromCoordinates(x, y);
 			NewNode.X = x;
 			NewNode.Y = y;
 
-			// Dünya pozisyonunu hesapla
-			// Örn: x=0 -> 0, x=1 -> 100, x=2 -> 200...
 			float WorldX = x * TileSize;
 			float WorldY = y * TileSize;
 
-			// Actor'ün konumuna göre offset ekle
-			NewNode.WorldLocation = OriginLocation + FVector(WorldX, WorldY, 0.0f);
+			// Z eksenini 10 birim yukarı kaldıralım ki yerin içine girmesin
+			NewNode.WorldLocation = OriginLocation + FVector(WorldX, WorldY, 10.0f);
 
-			// Array'e ekle
 			GridNodes.Add(NewNode);
+
+			// --- GÖRSELLEŞTİRME (DEBUG) ---
+			// Her noktanın olduğu yere kırmızı bir küre çiz.
+			// Radius: 15cm, Segments: 12, Color: Red, Persistent: True (Sürekli kalır)
+			DrawDebugSphere(GetWorld(), NewNode.WorldLocation, 15.0f, 12, FColor::Red, true, -1.0f);
+
+			// Koordinatları da yazalım (Opsiyonel)
+			// DrawDebugString(GetWorld(), NewNode.WorldLocation, FString::Printf(TEXT("%d,%d"), x, y), nullptr, FColor::White, -1.0f, false, 1.0f);
 		}
 	}
 }
