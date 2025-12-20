@@ -2,35 +2,36 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/StaticMeshComponent.h"
 
-// Constructor: Objeler burada yaratılır.
+// Constructor
 AQuoridorPawn::AQuoridorPawn()
 {
-	// Piyon hareket edeceği için Tick açık kalsın.
+	// Hareket (Tick) açık olmalı
 	PrimaryActorTick.bCanEverTick = true;
 
-	// 1. Root Collision (Kapsül) Oluşturma
+	// 1. Root Collision
 	RootCollision = CreateDefaultSubobject<UCapsuleComponent>(TEXT("RootCollision"));
 	RootComponent = RootCollision;
-
-	// Kapsül boyutları (Quoridor taşına uygun ince uzun)
 	RootCollision->SetCapsuleHalfHeight(40.0f);
 	RootCollision->SetCapsuleRadius(20.0f);
 
-	// 2. Mesh (Görsel) Oluşturma
+	// 2. Mesh
 	PawnMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PawnMesh"));
 	PawnMesh->SetupAttachment(RootComponent);
-
-	// Mesh'i kapsülün içine ortalamak için hafif aşağı çekelim
 	PawnMesh->SetRelativeLocation(FVector(0.f, 0.f, -40.f));
 
 	// Varsayılan Değerler
 	CurrentGridIndex = -1;
 	PlayerID = 1;
+	bIsMoving = false;
+	MovementSpeed = 5.0f; // Hızı biraz düşürdüm, hareketi net görelim
 }
 
 void AQuoridorPawn::BeginPlay()
 {
 	Super::BeginPlay();
+
+	// Başlangıçta hedef mevcut konum olsun
+	TargetLocation = GetActorLocation();
 
 	UE_LOG(LogTemp, Warning, TEXT("Pawn Spawned: Player %d"), PlayerID);
 }
@@ -38,7 +39,36 @@ void AQuoridorPawn::BeginPlay()
 void AQuoridorPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	// Hareket kodlarını bir sonraki adımda buraya yazacağız.
+
+	if (bIsMoving)
+	{
+		FVector CurrentLoc = GetActorLocation();
+
+		// Süzülme işlemi (Interpolation)
+		FVector NewLoc = FMath::VInterpTo(CurrentLoc, TargetLocation, DeltaTime, MovementSpeed);
+
+		SetActorLocation(NewLoc);
+
+		// Hedefe çok yaklaştıysak durdur
+		if (FVector::Dist(NewLoc, TargetLocation) < 1.0f)
+		{
+			SetActorLocation(TargetLocation); // Tam oturt
+			bIsMoving = false;
+			UE_LOG(LogTemp, Display, TEXT("Movement Finished!"));
+		}
+	}
+}
+
+void AQuoridorPawn::MoveToTarget(FVector NewTargetLocation)
+{
+	TargetLocation = NewTargetLocation;
+
+	// Z yüksekliğini koru (Yere gömülmesin)
+	TargetLocation.Z = GetActorLocation().Z;
+
+	bIsMoving = true;
+
+	UE_LOG(LogTemp, Display, TEXT("Moving to: %s"), *TargetLocation.ToString());
 }
 
 void AQuoridorPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
