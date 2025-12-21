@@ -63,8 +63,12 @@ void AQuoridorPawn::MoveToTarget(FVector NewTargetLocation)
 {
 	TargetLocation = NewTargetLocation;
 
-	// Z yüksekliğini koru (Yere gömülmesin)
-	TargetLocation.Z = GetActorLocation().Z;
+	// ESKİ KOD (Hatalı olan):
+	// TargetLocation.Z = GetActorLocation().Z;
+
+	// YENİ KOD (Düzeltme):
+	// Piyon nerede olursa olsun, hareket ederken Z=50 (Yerden biraz yukarı) hizasına insin.
+	TargetLocation.Z = 50.0f;
 
 	bIsMoving = true;
 

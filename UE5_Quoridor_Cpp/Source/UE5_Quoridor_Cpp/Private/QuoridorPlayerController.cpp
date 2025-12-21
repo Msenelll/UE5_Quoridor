@@ -24,8 +24,24 @@ void AQuoridorPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// 1. Piyonu Bul
-	ControlledPawn = Cast<AQuoridorPawn>(GetPawn());
+
+
+	// --- 1. TÜM PİYONLARI BUL ---
+	TArray<AActor*> FoundPawns;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AQuoridorPawn::StaticClass(), FoundPawns);
+
+	for (AActor* Actor : FoundPawns)
+	{
+		AQuoridorPawn* P = Cast<AQuoridorPawn>(Actor);
+		if (P)
+		{
+			if (P->PlayerID == 1) PawnP1 = P;
+			else if (P->PlayerID == 2) PawnP2 = P;
+		}
+	}
+
+	// Varsayılan olarak Player 1 ile başla
+	ControlledPawn = PawnP1;
 
 	// 2. Grid Manager'ı Bul
 	AActor* FoundGridManager = UGameplayStatics::GetActorOfClass(GetWorld(), AQuoridorGridManager::StaticClass());
@@ -40,15 +56,20 @@ void AQuoridorPlayerController::BeginPlay()
 
 	// Sahnede bulunan ilk "CameraActor"ü bul.
 	// (Zaten sahnede tek bir kamera var, o yüzden sorun olmaz)
+	// --- KAMERA AYARLARI ---
 	AActor* FoundCamera = UGameplayStatics::GetActorOfClass(GetWorld(), ACameraActor::StaticClass());
 
 	if (FoundCamera)
 	{
-		// Görüş açımızı (ViewTarget) bu kamera yap.
-		// Blend Time: 0 (Anında geçiş)
+		// 1. Görüşü Kameraya Geçir
 		SetViewTargetWithBlend(FoundCamera, 0.0f);
 
-		UE_LOG(LogTemp, Warning, TEXT("Camera Set to Static View!"));
+		// --- YENİ EKLENEN SATIR ---
+		// Kameranın fiziksel varlığını (Collision) tamamen kapatıyoruz.
+		// Böylece Mouse ışınları içinden geçip yere ulaşacak.
+		FoundCamera->SetActorEnableCollision(false);
+
+		UE_LOG(LogTemp, Warning, TEXT("Camera Found & Collision DISABLED!"));
 	}
 	else
 	{
@@ -106,10 +127,22 @@ void AQuoridorPlayerController::HandleMoveInput()
 
 			ControlledPawn->MoveToTarget(SnappedLocation);
 
-			// 4. SIRAYI DEVRET
+			// 4. SIRAYI DEVRET VE PİYONU GÜNCELLE
 			if (MyGameState)
 			{
 				MyGameState->SwitchTurn();
+
+				// YENİ: Aktif piyonu değiştir (Hot Seat Logic)
+				if (MyGameState->CurrentTurn == EQuoridorTurn::Player1)
+				{
+					ControlledPawn = PawnP1;
+				}
+				else if (MyGameState->CurrentTurn == EQuoridorTurn::Player2)
+				{
+					ControlledPawn = PawnP2;
+				}
+
+				UE_LOG(LogTemp, Display, TEXT("Control Switched to Player %d"), ControlledPawn ? ControlledPawn->PlayerID : 0);
 			}
 		}
 	}

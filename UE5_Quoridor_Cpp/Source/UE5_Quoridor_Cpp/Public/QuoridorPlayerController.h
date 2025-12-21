@@ -32,5 +32,13 @@ private:
 	AQuoridorPawn* ControlledPawn;
 	UPROPERTY()
 	AQuoridorGridManager* GridManagerRef;
+	// İki piyonu da hafızada tutalım
+	UPROPERTY()
+	AQuoridorPawn* PawnP1;
+
+	UPROPERTY()
+	AQuoridorPawn* PawnP2;
+
+	// ControlledPawn zaten var, onu aktif olanı göstermek için kullanacağız.
 
 };
