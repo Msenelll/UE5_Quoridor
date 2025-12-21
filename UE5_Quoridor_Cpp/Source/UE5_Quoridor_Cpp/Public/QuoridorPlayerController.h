@@ -6,6 +6,7 @@
 
 // Forward Declaration
 class AQuoridorPawn;
+class AQuoridorGridManager;
 
 UCLASS()
 class UE5_QUORIDOR_CPP_API AQuoridorPlayerController : public APlayerController
@@ -29,4 +30,7 @@ private:
 	// Yönettiğimiz Piyonun referansını tutalım (Cast maliyetinden kaçınmak için)
 	UPROPERTY()
 	AQuoridorPawn* ControlledPawn;
+	UPROPERTY()
+	AQuoridorGridManager* GridManagerRef;
+
 };

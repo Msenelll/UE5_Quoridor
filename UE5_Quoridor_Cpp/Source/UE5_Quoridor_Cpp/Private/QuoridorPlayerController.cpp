@@ -1,6 +1,13 @@
 #include "QuoridorPlayerController.h"
+// ÖNCE kendi header'ı, SONRA diğerleri:
+
 #include "QuoridorPawn.h"
+#include "QuoridorGridManager.h"        // <--- EKSİKTİ: GridManager'ın içini görmesini sağlar
+#include "Kismet/GameplayStatics.h"     // <--- EKSİKTİ: GetActorOfClass fonksiyonunu barındırır
 #include "Engine/World.h"
+#include "Camera/CameraActor.h"
+
+// ... Kodun geri kalanı aynı ...
 
 AQuoridorPlayerController::AQuoridorPlayerController()
 {
@@ -16,12 +23,35 @@ void AQuoridorPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// Oyun başladığında kontrol ettiğimiz piyonu tanıyalım
+	// 1. Piyonu Bul
 	ControlledPawn = Cast<AQuoridorPawn>(GetPawn());
 
-	if (!ControlledPawn)
+	// 2. Grid Manager'ı Bul
+	AActor* FoundGridManager = UGameplayStatics::GetActorOfClass(GetWorld(), AQuoridorGridManager::StaticClass());
+	GridManagerRef = Cast<AQuoridorGridManager>(FoundGridManager);
+
+	if (!GridManagerRef)
 	{
-		UE_LOG(LogTemp, Error, TEXT("QuoridorPlayerController: No Pawn Found!"));
+		UE_LOG(LogTemp, Error, TEXT("FATAL: GridManager not found!"));
+	}
+
+	// --- YENİ KOD: SABİT KAMERAYA GEÇİŞ ---
+
+	// Sahnede bulunan ilk "CameraActor"ü bul.
+	// (Zaten sahnede tek bir kamera var, o yüzden sorun olmaz)
+	AActor* FoundCamera = UGameplayStatics::GetActorOfClass(GetWorld(), ACameraActor::StaticClass());
+
+	if (FoundCamera)
+	{
+		// Görüş açımızı (ViewTarget) bu kamera yap.
+		// Blend Time: 0 (Anında geçiş)
+		SetViewTargetWithBlend(FoundCamera, 0.0f);
+
+		UE_LOG(LogTemp, Warning, TEXT("Camera Set to Static View!"));
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("Camera Actor NOT FOUND in the level!"));
 	}
 }
 
@@ -43,21 +73,22 @@ void AQuoridorPlayerController::OnLeftClick()
 
 void AQuoridorPlayerController::HandleMoveInput()
 {
-	// Mouse'un altındaki objeyi ve konumu bul (Raycast)
 	FHitResult HitResult;
-
-	// Ekranda tıkladığımız noktadan dünyaya bir ışın gönderir
 	bool bHit = GetHitResultUnderCursor(ECC_Visibility, false, HitResult);
 
-	if (bHit)
+	if (bHit && ControlledPawn && GridManagerRef)
 	{
-		// Çarpılan nokta (Vector)
-		FVector ClickLocation = HitResult.Location;
+		// 1. Tıklanan Ham Koordinat
+		FVector RawClickLocation = HitResult.Location;
 
-		// Debug Log (Nereye tıkladık?)
-		UE_LOG(LogTemp, Display, TEXT("Clicked at: %s"), *ClickLocation.ToString());
+		// 2. GridManager'a sor: "Buna en yakın kare neresi?"
+		FVector SnappedLocation = GridManagerRef->GetClosestGridLocation(RawClickLocation);
 
-		// Piyona git komutu ver
-		ControlledPawn->MoveToTarget(ClickLocation);
+		// 3. Debug Log
+		UE_LOG(LogTemp, Display, TEXT("Click: %s -> Snap: %s"),
+			*RawClickLocation.ToString(), *SnappedLocation.ToString());
+
+		// 4. Piyona "Oraya Git" de
+		ControlledPawn->MoveToTarget(SnappedLocation);
 	}
 }

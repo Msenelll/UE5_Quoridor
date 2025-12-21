@@ -72,6 +72,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Quoridor|Grid")
 	bool GetNodeByIndex(int32 Index, FGridNode& OutNode) const;
 
+	// Verilen dünya koordinatına en yakın Grid Merkezini döndürür
+	UFUNCTION(BlueprintCallable, Category = "Quoridor|Grid")
+	FVector GetClosestGridLocation(FVector InputLocation);
+
 protected:
 	// TDD 3.2: Grid Storage
 	// Bellekte tutulan ana veri (Flat Array - Cache Friendly)

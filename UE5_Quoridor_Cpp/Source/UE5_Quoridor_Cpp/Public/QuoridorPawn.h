@@ -8,6 +8,7 @@
 class UCapsuleComponent;
 class UStaticMeshComponent;
 
+
 UCLASS()
 class UE5_QUORIDOR_CPP_API AQuoridorPawn : public APawn
 {

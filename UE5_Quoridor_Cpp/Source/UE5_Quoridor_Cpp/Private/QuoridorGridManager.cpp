@@ -95,3 +95,27 @@ bool AQuoridorGridManager::GetNodeByIndex(int32 Index, FGridNode& OutNode) const
 	}
 	return false;
 }
+
+FVector AQuoridorGridManager::GetClosestGridLocation(FVector InputLocation)
+{
+	// 1. Gelen konumu Local konuma çevir (Grid'in kendi dünyasına)
+	// Grid (0,0)'da olmayabilir, bu yüzden ActorLocation'ı çıkarıyoruz.
+	FVector LocalPos = InputLocation - GetActorLocation();
+
+	// 2. Matematiksel Yuvarlama (Quantization)
+	// Örnek: Tıklanan 440, TileSize 100 ise -> 4.4 -> Yuvarla(4) -> 400.
+	int32 X_Index = FMath::RoundToInt(LocalPos.X / TileSize);
+	int32 Y_Index = FMath::RoundToInt(LocalPos.Y / TileSize);
+
+	// 3. Sınır Kontrolü (Clamp)
+	// Tıklama gridin çok dışındaysa bile en yakın kenara çek.
+	X_Index = FMath::Clamp(X_Index, 0, GridSize - 1);
+	Y_Index = FMath::Clamp(Y_Index, 0, GridSize - 1);
+
+	// 4. Tekrar Dünya Koordinatına Çevir
+	float WorldX = X_Index * TileSize;
+	float WorldY = Y_Index * TileSize;
+
+	// Z eksenini sabit tutuyoruz (Grid noktaları Z=10'daydı)
+	return GetActorLocation() + FVector(WorldX, WorldY, 10.0f);
+}
