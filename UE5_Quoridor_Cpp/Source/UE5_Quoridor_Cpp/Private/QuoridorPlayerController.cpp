@@ -1,33 +1,27 @@
 #include "QuoridorPlayerController.h"
-// ÖNCE kendi header'ı, SONRA diğerleri:
-
 #include "QuoridorPawn.h"
-#include "QuoridorGridManager.h"        // <--- EKSİKTİ: GridManager'ın içini görmesini sağlar
-#include "Kismet/GameplayStatics.h"     // <--- EKSİKTİ: GetActorOfClass fonksiyonunu barındırır
-#include "Engine/World.h"
-#include "Camera/CameraActor.h"
-#include "QuoridorGameState.h"
+#include "QuoridorGridManager.h"
 #include "QuoridorWall.h"
-
-// ... Kodun geri kalanı aynı ...
+#include "QuoridorGameState.h"
+#include "Kismet/GameplayStatics.h"
+#include "Camera/CameraActor.h"
+#include "Engine/World.h"
 
 AQuoridorPlayerController::AQuoridorPlayerController()
 {
-	// 1. Mouse İmlecini Göster
 	bShowMouseCursor = true;
-
-	// 2. Tıklama olaylarını aç
 	bEnableClickEvents = true;
 	bEnableMouseOverEvents = true;
+
+	// Varsayılan mod: Hareket
+	CurrentInputMode = EInputMode::Movement;
 }
 
 void AQuoridorPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
-
-
-	// --- 1. TÜM PİYONLARI BUL ---
+	// 1. Piyonları Bul
 	TArray<AActor*> FoundPawns;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AQuoridorPawn::StaticClass(), FoundPawns);
 
@@ -41,149 +35,200 @@ void AQuoridorPlayerController::BeginPlay()
 		}
 	}
 
-	// Varsayılan olarak Player 1 ile başla
+	// Varsayılan Piyon (P1)
 	ControlledPawn = PawnP1;
 
 	// 2. Grid Manager'ı Bul
 	AActor* FoundGridManager = UGameplayStatics::GetActorOfClass(GetWorld(), AQuoridorGridManager::StaticClass());
 	GridManagerRef = Cast<AQuoridorGridManager>(FoundGridManager);
 
-	if (!GridManagerRef)
-	{
-		UE_LOG(LogTemp, Error, TEXT("FATAL: GridManager not found!"));
-	}
-
-	// --- YENİ KOD: SABİT KAMERAYA GEÇİŞ ---
-
-	// Sahnede bulunan ilk "CameraActor"ü bul.
-	// (Zaten sahnede tek bir kamera var, o yüzden sorun olmaz)
-	// --- KAMERA AYARLARI ---
+	// 3. Kamera Ayarı
 	AActor* FoundCamera = UGameplayStatics::GetActorOfClass(GetWorld(), ACameraActor::StaticClass());
-
 	if (FoundCamera)
 	{
-		// 1. Görüşü Kameraya Geçir
 		SetViewTargetWithBlend(FoundCamera, 0.0f);
-
-		// --- YENİ EKLENEN SATIR ---
-		// Kameranın fiziksel varlığını (Collision) tamamen kapatıyoruz.
-		// Böylece Mouse ışınları içinden geçip yere ulaşacak.
 		FoundCamera->SetActorEnableCollision(false);
-
-		UE_LOG(LogTemp, Warning, TEXT("Camera Found & Collision DISABLED!"));
-	}
-	else
-	{
-		UE_LOG(LogTemp, Error, TEXT("Camera Actor NOT FOUND in the level!"));
 	}
 
-	// --- GHOST WALL OLUŞTURMA ---
+	// 4. Ghost Wall Oluşturma
 	if (WallClass)
 	{
-		FVector SpawnLoc(0.f, 0.f, -500.f); // Başlangıçta yerin altında olsun, görünmesin
+		FVector SpawnLoc(0.f, 0.f, -500.f);
 		FRotator SpawnRot = FRotator::ZeroRotator;
 
 		GhostWallRef = GetWorld()->SpawnActor<AQuoridorWall>(WallClass, SpawnLoc, SpawnRot);
 
 		if (GhostWallRef)
 		{
-			// Önizleme olduğu için collision'ı kapatalım, yoksa tıklamayı engeller!
 			GhostWallRef->SetActorEnableCollision(false);
+			// Başlangıçta gizle (Movement modundayız)
+			GhostWallRef->SetActorHiddenInGame(true);
 		}
 	}
 }
-// Tick Fonksiyonu (Her karede çalışır)
+
+void AQuoridorPlayerController::SetupInputComponent()
+{
+	Super::SetupInputComponent();
+
+	InputComponent->BindAction("LeftClick", IE_Pressed, this, &AQuoridorPlayerController::OnLeftClick);
+	InputComponent->BindAction("RightClick", IE_Pressed, this, &AQuoridorPlayerController::OnRightClick);
+}
+
 void AQuoridorPlayerController::PlayerTick(float DeltaTime)
 {
 	Super::PlayerTick(DeltaTime);
 
-	UpdateGhostWallPosition();
+	// Eğer Duvar Yerleştirme modundaysak hayalet duvarı güncelle
+	if (CurrentInputMode == EInputMode::WallPlacement)
+	{
+		UpdateGhostWallPosition();
+	}
+}
+
+// --- INPUT HANDLERS ---
+
+void AQuoridorPlayerController::OnLeftClick()
+{
+	if (!GridManagerRef) return;
+
+	// MODA GÖRE İŞLEM YAP
+	if (CurrentInputMode == EInputMode::Movement)
+	{
+		HandleMoveInput();
+	}
+	else if (CurrentInputMode == EInputMode::WallPlacement)
+	{
+		PlaceWall();
+	}
+}
+
+void AQuoridorPlayerController::OnRightClick()
+{
+	// Sadece Duvar modundaysak döndür
+	if (CurrentInputMode == EInputMode::WallPlacement && GhostWallRef)
+	{
+		GhostWallRef->RotateWall();
+	}
+}
+
+void AQuoridorPlayerController::SetInputMode(EInputMode NewMode)
+{
+	CurrentInputMode = NewMode;
+
+	// Ghost Wall Görünürlüğünü Ayarla
+	if (GhostWallRef)
+	{
+		bool bShowGhost = (CurrentInputMode == EInputMode::WallPlacement);
+
+		GhostWallRef->SetActorHiddenInGame(!bShowGhost);
+
+		// Eğer duvar moduna geçildiyse hemen mouse ucuna ışınla
+		if (bShowGhost)
+		{
+			UpdateGhostWallPosition();
+		}
+	}
+
+	FString ModeName = (CurrentInputMode == EInputMode::Movement) ? TEXT("MOVEMENT") : TEXT("WALL PLACEMENT");
+	UE_LOG(LogTemp, Warning, TEXT("Input Mode Changed to: %s"), *ModeName);
+}
+
+// --- LOGIC FUNCTIONS ---
+
+void AQuoridorPlayerController::HandleMoveInput()
+{
+	FHitResult HitResult;
+	bool bHit = GetHitResultUnderCursor(ECC_Visibility, false, HitResult);
+
+	if (bHit && ControlledPawn && GridManagerRef)
+	{
+		// SIRA KONTROLÜ
+		UWorld* World = GetWorld();
+		if (World)
+		{
+			AQuoridorGameState* MyGameState = World->GetGameState<AQuoridorGameState>();
+
+			if (MyGameState && !MyGameState->IsPlayerTurn(ControlledPawn->PlayerID))
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Sıra sende değil! Bekle..."));
+				return;
+			}
+
+			// HESAPLAMA VE HAREKET
+			FVector RawClickLocation = HitResult.Location;
+			FVector SnappedLocation = GridManagerRef->GetClosestGridLocation(RawClickLocation);
+
+			ControlledPawn->MoveToTarget(SnappedLocation);
+
+			// SIRAYI DEVRET
+			if (MyGameState)
+			{
+				MyGameState->SwitchTurn();
+
+				if (MyGameState->CurrentTurn == EQuoridorTurn::Player1) ControlledPawn = PawnP1;
+				else if (MyGameState->CurrentTurn == EQuoridorTurn::Player2) ControlledPawn = PawnP2;
+			}
+		}
+	}
+}
+
+void AQuoridorPlayerController::PlaceWall()
+{
+	if (!GhostWallRef || !WallClass) return;
+
+	// SIRA KONTROLÜ
+	UWorld* World = GetWorld();
+	AQuoridorGameState* MyGameState = World ? World->GetGameState<AQuoridorGameState>() : nullptr;
+
+	if (MyGameState && ControlledPawn)
+	{
+		if (!MyGameState->IsPlayerTurn(ControlledPawn->PlayerID))
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Duvar koymak için sıranı bekle!"));
+			return;
+		}
+	}
+
+	// DUVAR KOYMA
+	FVector SpawnLoc = GhostWallRef->GetActorLocation();
+	FRotator SpawnRot = GhostWallRef->GetActorRotation();
+
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Owner = this;
+
+	AQuoridorWall* NewWall = World->SpawnActor<AQuoridorWall>(WallClass, SpawnLoc, SpawnRot, SpawnParams);
+
+	if (NewWall)
+	{
+		if (ControlledPawn)
+		{
+			NewWall->OwnerPlayerID = ControlledPawn->PlayerID;
+		}
+
+		NewWall->SetActorEnableCollision(true);
+
+		// SIRAYI DEVRET
+		if (MyGameState)
+		{
+			MyGameState->SwitchTurn();
+
+			if (MyGameState->CurrentTurn == EQuoridorTurn::Player1) ControlledPawn = PawnP1;
+			else if (MyGameState->CurrentTurn == EQuoridorTurn::Player2) ControlledPawn = PawnP2;
+		}
+	}
 }
 
 void AQuoridorPlayerController::UpdateGhostWallPosition()
 {
 	if (!GhostWallRef || !GridManagerRef) return;
 
-	// Mouse nereye bakıyor?
 	FHitResult HitResult;
 	bool bHit = GetHitResultUnderCursor(ECC_Visibility, false, HitResult);
 
 	if (bHit)
 	{
-		// GridManager'dan "Duvar Snap Noktası"nı iste
 		FVector SnappedPos = GridManagerRef->GetClosestWallLocation(HitResult.Location);
-
-		// Ghost Wall'u oraya taşı
 		GhostWallRef->SetActorLocation(SnappedPos);
-	}
-}
-void AQuoridorPlayerController::SetupInputComponent()
-{
-	Super::SetupInputComponent();
-
-	// Sol tık basıldığında "OnLeftClick" fonksiyonunu çalıştır
-	InputComponent->BindAction("LeftClick", IE_Pressed, this, &AQuoridorPlayerController::OnLeftClick);
-}
-
-void AQuoridorPlayerController::OnLeftClick()
-{
-	if (ControlledPawn)
-	{
-		HandleMoveInput();
-	}
-}
-
-void AQuoridorPlayerController::HandleMoveInput()
-{
-	// Mouse'un altındaki objeyi ve konumu bul (Raycast)
-	FHitResult HitResult;
-	bool bHit = GetHitResultUnderCursor(ECC_Visibility, false, HitResult);
-
-	if (bHit && ControlledPawn && GridManagerRef)
-	{
-		// 1. GAME STATE VE SIRA KONTROLÜ
-		UWorld* World = GetWorld();
-		if (World)
-		{
-			AQuoridorGameState* MyGameState = World->GetGameState<AQuoridorGameState>();
-
-			// GameState varsa VE Sıra bizde değilse -> DUR!
-			if (MyGameState && !MyGameState->IsPlayerTurn(ControlledPawn->PlayerID))
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Sıra sende değil! Bekle..."));
-				return; // Fonksiyondan çık
-			}
-
-			// 2. HESAPLAMA (Bu kısım eksikti veya aşağıdaydı)
-			FVector RawClickLocation = HitResult.Location;
-
-			// GridManager'a sor: "Buna en yakın kare neresi?"
-			// DEĞİŞKEN BURADA TANIMLANIYOR:
-			FVector SnappedLocation = GridManagerRef->GetClosestGridLocation(RawClickLocation);
-
-			// 3. HAREKET EMRİ
-			UE_LOG(LogTemp, Display, TEXT("Click: %s -> Snap: %s"),
-				*RawClickLocation.ToString(), *SnappedLocation.ToString());
-
-			ControlledPawn->MoveToTarget(SnappedLocation);
-
-			// 4. SIRAYI DEVRET VE PİYONU GÜNCELLE
-			if (MyGameState)
-			{
-				MyGameState->SwitchTurn();
-
-				// YENİ: Aktif piyonu değiştir (Hot Seat Logic)
-				if (MyGameState->CurrentTurn == EQuoridorTurn::Player1)
-				{
-					ControlledPawn = PawnP1;
-				}
-				else if (MyGameState->CurrentTurn == EQuoridorTurn::Player2)
-				{
-					ControlledPawn = PawnP2;
-				}
-
-				UE_LOG(LogTemp, Display, TEXT("Control Switched to Player %d"), ControlledPawn ? ControlledPawn->PlayerID : 0);
-			}
-		}
 	}
 }

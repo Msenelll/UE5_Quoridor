@@ -4,11 +4,18 @@
 #include "GameFramework/PlayerController.h"
 #include "QuoridorPlayerController.generated.h"
 
-// --- FORWARD DECLARATIONS (İLERİ BİLDİRİM) ---
-// Derleyiciye "Merak etme, böyle sınıflar var, detayları .cpp'de" diyoruz.
+// --- FORWARD DECLARATIONS ---
 class AQuoridorGridManager;
-class AQuoridorWall;          // <--- BU EKSİKTİ! Hatanın sebebi bu.
+class AQuoridorWall;
 class AQuoridorPawn;
+
+// --- GİRİŞ MODU ENUM'I ---
+UENUM(BlueprintType)
+enum class EInputMode : uint8
+{
+	Movement        UMETA(DisplayName = "Movement Mode"),
+	WallPlacement   UMETA(DisplayName = "Wall Placement Mode")
+};
 
 UCLASS()
 class UE5_QUORIDOR_CPP_API AQuoridorPlayerController : public APlayerController
@@ -18,18 +25,28 @@ class UE5_QUORIDOR_CPP_API AQuoridorPlayerController : public APlayerController
 public:
 	AQuoridorPlayerController();
 
+	// --- INPUT MODE SYSTEM ---
+
+	// Şu anki modumuz ne?
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Quoridor|State")
+	EInputMode CurrentInputMode;
+
+	// Modu değiştiren fonksiyon (UI'dan çağıracağız)
+	UFUNCTION(BlueprintCallable, Category = "Quoridor|Action")
+	void SetInputMode(EInputMode NewMode);
+
 protected:
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
-	virtual void PlayerTick(float DeltaTime) override; // Tick fonksiyonunu unutmuyoruz
+	virtual void PlayerTick(float DeltaTime) override;
 
-	// Mouse Tıklama İşlemi
+	// Mouse Tıklama İşlemleri
 	void OnLeftClick();
+	void OnRightClick();
 
-	// Tıklanan yerdeki koordinatı bulma
+	// Mantık Fonksiyonları
 	void HandleMoveInput();
-
-	// Ghost Wall Pozisyonunu Güncelleme
+	void PlaceWall();
 	void UpdateGhostWallPosition();
 
 private:
@@ -43,19 +60,18 @@ private:
 	UPROPERTY()
 	AQuoridorPawn* PawnP2;
 
-	// Grid Yöneticisi Referansı
+	// Grid Yöneticisi
 	UPROPERTY()
 	AQuoridorGridManager* GridManagerRef;
 
 	// --- WALL SYSTEM ---
 
 protected:
-	// Editörden seçeceğimiz Duvar Blueprint'i
-	// TSubclassOf kullanabilmek için yukarıda class AQuoridorWall; yazmalıydık.
+	// Duvar Blueprint Sınıfı
 	UPROPERTY(EditDefaultsOnly, Category = "Quoridor|Config")
 	TSubclassOf<AQuoridorWall> WallClass;
 
-	// Sahnedeki hayalet duvar örneği
+	// Hayalet Duvar Referansı
 	UPROPERTY()
 	AQuoridorWall* GhostWallRef;
 };
