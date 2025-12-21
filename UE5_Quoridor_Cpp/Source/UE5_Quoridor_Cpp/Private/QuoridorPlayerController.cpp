@@ -6,6 +6,7 @@
 #include "Kismet/GameplayStatics.h"     // <--- EKSİKTİ: GetActorOfClass fonksiyonunu barındırır
 #include "Engine/World.h"
 #include "Camera/CameraActor.h"
+#include "QuoridorGameState.h"
 
 // ... Kodun geri kalanı aynı ...
 
@@ -73,22 +74,43 @@ void AQuoridorPlayerController::OnLeftClick()
 
 void AQuoridorPlayerController::HandleMoveInput()
 {
+	// Mouse'un altındaki objeyi ve konumu bul (Raycast)
 	FHitResult HitResult;
 	bool bHit = GetHitResultUnderCursor(ECC_Visibility, false, HitResult);
 
 	if (bHit && ControlledPawn && GridManagerRef)
 	{
-		// 1. Tıklanan Ham Koordinat
-		FVector RawClickLocation = HitResult.Location;
+		// 1. GAME STATE VE SIRA KONTROLÜ
+		UWorld* World = GetWorld();
+		if (World)
+		{
+			AQuoridorGameState* MyGameState = World->GetGameState<AQuoridorGameState>();
 
-		// 2. GridManager'a sor: "Buna en yakın kare neresi?"
-		FVector SnappedLocation = GridManagerRef->GetClosestGridLocation(RawClickLocation);
+			// GameState varsa VE Sıra bizde değilse -> DUR!
+			if (MyGameState && !MyGameState->IsPlayerTurn(ControlledPawn->PlayerID))
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Sıra sende değil! Bekle..."));
+				return; // Fonksiyondan çık
+			}
 
-		// 3. Debug Log
-		UE_LOG(LogTemp, Display, TEXT("Click: %s -> Snap: %s"),
-			*RawClickLocation.ToString(), *SnappedLocation.ToString());
+			// 2. HESAPLAMA (Bu kısım eksikti veya aşağıdaydı)
+			FVector RawClickLocation = HitResult.Location;
 
-		// 4. Piyona "Oraya Git" de
-		ControlledPawn->MoveToTarget(SnappedLocation);
+			// GridManager'a sor: "Buna en yakın kare neresi?"
+			// DEĞİŞKEN BURADA TANIMLANIYOR:
+			FVector SnappedLocation = GridManagerRef->GetClosestGridLocation(RawClickLocation);
+
+			// 3. HAREKET EMRİ
+			UE_LOG(LogTemp, Display, TEXT("Click: %s -> Snap: %s"),
+				*RawClickLocation.ToString(), *SnappedLocation.ToString());
+
+			ControlledPawn->MoveToTarget(SnappedLocation);
+
+			// 4. SIRAYI DEVRET
+			if (MyGameState)
+			{
+				MyGameState->SwitchTurn();
+			}
+		}
 	}
 }
