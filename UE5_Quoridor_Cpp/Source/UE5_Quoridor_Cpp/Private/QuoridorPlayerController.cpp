@@ -112,7 +112,7 @@ void AQuoridorPlayerController::OnRightClick()
 	}
 }
 
-void AQuoridorPlayerController::SetInputMode(EInputMode NewMode)
+void AQuoridorPlayerController::SetGameInputMode(EInputMode NewMode)
 {
 	CurrentInputMode = NewMode;
 
@@ -180,6 +180,20 @@ void AQuoridorPlayerController::PlaceWall()
 	// SIRA KONTROLÜ
 	UWorld* World = GetWorld();
 	AQuoridorGameState* MyGameState = World ? World->GetGameState<AQuoridorGameState>() : nullptr;
+
+	// --- VALIDATION (YENİ) ---
+	FVector CandidateLoc = GhostWallRef->GetActorLocation();
+	bool bIsHorz = GhostWallRef->bIsHorizontal; // Ghost Wall'a bu değişkeni eklemiştik (Public ise erişebilirsin)
+	// Eğer bIsHorizontal erişilemiyorsa rotasyondan anlarız:
+	// FRotator Rot = GhostWallRef->GetActorRotation();
+	// bIsHorz = FMath::IsNearlyEqual(Rot.Yaw, 0.0f, 1.0f) || FMath::IsNearlyEqual(Rot.Yaw, 180.0f, 1.0f); 
+	// Ama QuoridorWall.h'da bIsHorizontal public tanımlıydı, direkt erişebilmen lazım.
+
+	if (!GridManagerRef->IsWallPlacementValid(CandidateLoc, GhostWallRef->bIsHorizontal, GhostWallRef))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Geçersiz Hamle: Duvarlar çakışıyor!"));
+		return;
+	}
 
 	if (MyGameState && ControlledPawn)
 	{

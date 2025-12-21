@@ -32,8 +32,11 @@ public:
 	EInputMode CurrentInputMode;
 
 	// Modu değiştiren fonksiyon (UI'dan çağıracağız)
+	// ESKİ: void SetInputMode(EInputMode NewMode);
+
+	// YENİ:
 	UFUNCTION(BlueprintCallable, Category = "Quoridor|Action")
-	void SetInputMode(EInputMode NewMode);
+	void SetGameInputMode(EInputMode NewMode);
 
 protected:
 	virtual void BeginPlay() override;

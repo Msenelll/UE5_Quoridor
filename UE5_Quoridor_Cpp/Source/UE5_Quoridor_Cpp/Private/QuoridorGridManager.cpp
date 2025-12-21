@@ -1,7 +1,14 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #include "QuoridorGridManager.h"
-#include "DrawDebugHelpers.h"
+
+// --- GEREKLİ KÜTÜPHANELER ---
+#include "Engine/World.h"
+#include "QuoridorGridManager.h"
+#include "CollisionQueryParams.h"
+#include "Components/StaticMeshComponent.h"
+#include "CollisionQueryParams.h"         // FCollisionQueryParams için şart (Bunu da ekleyelim)
+
+
+// ... Kodun geri kalanı aynı
 // Constructor
 AQuoridorGridManager::AQuoridorGridManager()
 {
@@ -148,4 +155,49 @@ FVector AQuoridorGridManager::GetClosestWallLocation(FVector InputLocation)
 
 	// Z eksenini 10.0f olarak sabitliyoruz
 	return GetActorLocation() + FVector(WorldX, WorldY, 10.0f);
+}
+
+bool AQuoridorGridManager::IsWallPlacementValid(FVector WallLocation, bool bIsHorizontal, AActor* ActorToIgnore)
+{
+	// 1. Kutu Boyutu
+	// Z boyutunu 50'den 5.0f'e düşürdük! 
+	// Böylece Z=10'daki duvarın kutusu [5, 15] arasında kalır. Z=0'daki zemine ASLA değmez.
+	FVector BoxSize;
+	if (bIsHorizontal)
+	{
+		BoxSize = FVector(85.0f, 8.0f, 5.0f); // Z = 5.0f (İnceltildi)
+	}
+	else
+	{
+		BoxSize = FVector(8.0f, 85.0f, 5.0f); // Z = 5.0f (İnceltildi)
+	}
+
+	// 2. Parametreler
+	FCollisionQueryParams QueryParams;
+	QueryParams.AddIgnoredActor(this); // Kendini yoksay
+
+	// Eğer dışarıdan "Şunu görmezden gel" dendiyse (Ghost Wall), onu da ekle.
+	if (ActorToIgnore)
+	{
+		QueryParams.AddIgnoredActor(ActorToIgnore);
+	}
+
+	// 3. Çarpışma Testi
+	bool bHit = GetWorld()->OverlapBlockingTestByChannel(
+		WallLocation,
+		FQuat::Identity,
+		ECC_WorldDynamic,
+		FCollisionShape::MakeBox(BoxSize),
+		QueryParams
+	);
+
+	if (bHit)
+	{
+		// Logu biraz daha detaylandıralım (Test amaçlı, istersen kaldırabilirsin)
+		// Not: BlockingTest neye çarptığını söylemez, sadece çarptım der.
+		UE_LOG(LogTemp, Warning, TEXT("Placement Invalid: Collision Detected (Floor or Wall)!"));
+		return false;
+	}
+
+	return true;
 }

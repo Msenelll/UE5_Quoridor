@@ -80,6 +80,11 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Quoridor|Grid")
 	FVector GetClosestWallLocation(FVector InputLocation);
 
+	// Belirtilen konum ve rotasyonda duvar koymak güvenli mi?
+	// True = Koyabilirsin, False = Orası dolu
+	UFUNCTION(BlueprintCallable, Category = "Quoridor|Rules")
+	bool IsWallPlacementValid(FVector WallLocation, bool bIsHorizontal, AActor* ActorToIgnore = nullptr);
+
 protected:
 	// TDD 3.2: Grid Storage
 	// Bellekte tutulan ana veri (Flat Array - Cache Friendly)
