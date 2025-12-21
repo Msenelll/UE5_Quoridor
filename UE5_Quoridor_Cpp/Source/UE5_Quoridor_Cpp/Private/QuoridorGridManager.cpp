@@ -119,3 +119,33 @@ FVector AQuoridorGridManager::GetClosestGridLocation(FVector InputLocation)
 	// Z eksenini sabit tutuyoruz (Grid noktaları Z=10'daydı)
 	return GetActorLocation() + FVector(WorldX, WorldY, 10.0f);
 }
+
+FVector AQuoridorGridManager::GetClosestWallLocation(FVector InputLocation)
+{
+	// 1. Gridin merkezine göre yerel konumu al
+	FVector LocalPos = InputLocation - GetActorLocation();
+
+	// 2. Matematik (Offset Mantığı)
+	// Piyonlar (0, 100, 200) noktalarına oturuyordu.
+	// Duvarlar bunların tam ortasına (50, 150, 250) oturmalı.
+	// Formül: (Round((X - 50) / 100) * 100) + 50
+
+	float OffsetX = LocalPos.X - (TileSize / 2.0f);
+	float OffsetY = LocalPos.Y - (TileSize / 2.0f);
+
+	int32 X_Index = FMath::RoundToInt(OffsetX / TileSize);
+	int32 Y_Index = FMath::RoundToInt(OffsetY / TileSize);
+
+	// 3. Sınır Kontrolü (Clamp)
+	// Grid 9x9 ise, aradaki boşluklar 8x8'dir.
+	// Indexler 0 ile 7 arasında olmalı.
+	X_Index = FMath::Clamp(X_Index, 0, GridSize - 2);
+	Y_Index = FMath::Clamp(Y_Index, 0, GridSize - 2);
+
+	// 4. Koordinata Çevir
+	float WorldX = (X_Index * TileSize) + (TileSize / 2.0f);
+	float WorldY = (Y_Index * TileSize) + (TileSize / 2.0f);
+
+	// Z eksenini 10.0f olarak sabitliyoruz
+	return GetActorLocation() + FVector(WorldX, WorldY, 10.0f);
+}

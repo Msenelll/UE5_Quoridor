@@ -76,6 +76,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Quoridor|Grid")
 	FVector GetClosestGridLocation(FVector InputLocation);
 
+	// Fare konumuna en yakın Duvar Yerleştirme Noktasını (Intersection) döndürür
+	UFUNCTION(BlueprintCallable, Category = "Quoridor|Grid")
+	FVector GetClosestWallLocation(FVector InputLocation);
+
 protected:
 	// TDD 3.2: Grid Storage
 	// Bellekte tutulan ana veri (Flat Array - Cache Friendly)

@@ -4,9 +4,11 @@
 #include "GameFramework/PlayerController.h"
 #include "QuoridorPlayerController.generated.h"
 
-// Forward Declaration
-class AQuoridorPawn;
+// --- FORWARD DECLARATIONS (İLERİ BİLDİRİM) ---
+// Derleyiciye "Merak etme, böyle sınıflar var, detayları .cpp'de" diyoruz.
 class AQuoridorGridManager;
+class AQuoridorWall;          // <--- BU EKSİKTİ! Hatanın sebebi bu.
+class AQuoridorPawn;
 
 UCLASS()
 class UE5_QUORIDOR_CPP_API AQuoridorPlayerController : public APlayerController
@@ -19,6 +21,7 @@ public:
 protected:
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
+	virtual void PlayerTick(float DeltaTime) override; // Tick fonksiyonunu unutmuyoruz
 
 	// Mouse Tıklama İşlemi
 	void OnLeftClick();
@@ -26,19 +29,33 @@ protected:
 	// Tıklanan yerdeki koordinatı bulma
 	void HandleMoveInput();
 
+	// Ghost Wall Pozisyonunu Güncelleme
+	void UpdateGhostWallPosition();
+
 private:
-	// Yönettiğimiz Piyonun referansını tutalım (Cast maliyetinden kaçınmak için)
+	// Yönettiğimiz Piyonlar
 	UPROPERTY()
 	AQuoridorPawn* ControlledPawn;
-	UPROPERTY()
-	AQuoridorGridManager* GridManagerRef;
-	// İki piyonu da hafızada tutalım
+
 	UPROPERTY()
 	AQuoridorPawn* PawnP1;
 
 	UPROPERTY()
 	AQuoridorPawn* PawnP2;
 
-	// ControlledPawn zaten var, onu aktif olanı göstermek için kullanacağız.
+	// Grid Yöneticisi Referansı
+	UPROPERTY()
+	AQuoridorGridManager* GridManagerRef;
 
+	// --- WALL SYSTEM ---
+
+protected:
+	// Editörden seçeceğimiz Duvar Blueprint'i
+	// TSubclassOf kullanabilmek için yukarıda class AQuoridorWall; yazmalıydık.
+	UPROPERTY(EditDefaultsOnly, Category = "Quoridor|Config")
+	TSubclassOf<AQuoridorWall> WallClass;
+
+	// Sahnedeki hayalet duvar örneği
+	UPROPERTY()
+	AQuoridorWall* GhostWallRef;
 };

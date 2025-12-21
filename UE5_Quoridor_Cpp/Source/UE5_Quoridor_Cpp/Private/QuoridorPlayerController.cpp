@@ -7,6 +7,7 @@
 #include "Engine/World.h"
 #include "Camera/CameraActor.h"
 #include "QuoridorGameState.h"
+#include "QuoridorWall.h"
 
 // ... Kodun geri kalanı aynı ...
 
@@ -75,8 +76,47 @@ void AQuoridorPlayerController::BeginPlay()
 	{
 		UE_LOG(LogTemp, Error, TEXT("Camera Actor NOT FOUND in the level!"));
 	}
+
+	// --- GHOST WALL OLUŞTURMA ---
+	if (WallClass)
+	{
+		FVector SpawnLoc(0.f, 0.f, -500.f); // Başlangıçta yerin altında olsun, görünmesin
+		FRotator SpawnRot = FRotator::ZeroRotator;
+
+		GhostWallRef = GetWorld()->SpawnActor<AQuoridorWall>(WallClass, SpawnLoc, SpawnRot);
+
+		if (GhostWallRef)
+		{
+			// Önizleme olduğu için collision'ı kapatalım, yoksa tıklamayı engeller!
+			GhostWallRef->SetActorEnableCollision(false);
+		}
+	}
+}
+// Tick Fonksiyonu (Her karede çalışır)
+void AQuoridorPlayerController::PlayerTick(float DeltaTime)
+{
+	Super::PlayerTick(DeltaTime);
+
+	UpdateGhostWallPosition();
 }
 
+void AQuoridorPlayerController::UpdateGhostWallPosition()
+{
+	if (!GhostWallRef || !GridManagerRef) return;
+
+	// Mouse nereye bakıyor?
+	FHitResult HitResult;
+	bool bHit = GetHitResultUnderCursor(ECC_Visibility, false, HitResult);
+
+	if (bHit)
+	{
+		// GridManager'dan "Duvar Snap Noktası"nı iste
+		FVector SnappedPos = GridManagerRef->GetClosestWallLocation(HitResult.Location);
+
+		// Ghost Wall'u oraya taşı
+		GhostWallRef->SetActorLocation(SnappedPos);
+	}
+}
 void AQuoridorPlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
